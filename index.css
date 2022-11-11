@@ -467,6 +467,57 @@ button {
   text-align: justify;
 }
 
+/* download */
+#download{
+  background: linear-gradient(260deg, #CFF5CE, #77D3A7);
+  height: 400px;
+  margin: 201px 0 80px 0;
+}
+.download-mockup{
+  max-width: 581px;
+  margin-top: -179px;
+  position: absolute;
+}
+.download-btn{
+  margin-top: 20px ;
+  margin-left: -3px;
+  max-width: 200px;
+}
+.download-content{
+  margin-top: 6%;
+}
+
+
+@media only screen and (max-width: 670px) {
+  #download{
+    background: linear-gradient(260deg, #CFF5CE, #77D3A7);
+    height: 150px;
+    margin: 67px 0 40px 0;
+  }
+  .download-mockup{
+    max-width: 200px;
+    margin-top: -50px;
+    margin-left: -12px;
+    position: absolute;
+  }
+  .download-btn{
+    margin-top: auto ;
+    margin-left: -3px;
+    max-width: 69px;
+  }
+  .download-content h1{
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .download-content p{
+    font-size: 8px;
+  }
+  .download-content{
+    margin-top: 8%;
+  }
+}
+
+
 /* FAQ */
 #FAQ{
   margin-top: 60px;
@@ -491,6 +542,7 @@ button {
 #footer{
   background-color: #111211;
   bottom: 0%;
+  margin-top: 3%;
 }
 .white{
   color: rgb(255, 255, 255);
@@ -543,4 +595,9 @@ button {
   }
   .row{
     overflow: hidden;
+  }
+  @media only screen and (max-width: 670px) {
+    #footer{
+      text-align: center;
+    }
   }
