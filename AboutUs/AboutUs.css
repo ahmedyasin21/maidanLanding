@@ -1,0 +1,281 @@
+/* default */
+.heading{
+  margin-top: 5%;
+}
+ul,li,th,tr,p{
+  font-size: 1.2rem;
+}
+/* tr{
+  vertical-align: middle;
+} */
+h1{
+  font-size: 3rem;
+}
+h2{
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+h3{
+  font-size: 2rem;
+  font-weight: 600;
+
+}
+h4{
+  font-size: 1.7rem;
+}
+h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+span{
+  color: var(--color2);
+  font-weight: 300;
+}
+h6 {
+
+}
+:root{
+  --color1: rgb(38, 216, 38);
+  --color2: #4CC056 ;
+  --color3: linear-gradient(260deg, #CFF5CE, #77D3A7);
+}
+
+
+  /* nav */
+  .navbar-toggler{
+    width: 55px;
+    border: none !important;
+    background-color: aliceblue;
+  }
+  .navbar-nav{
+    text-align: center;
+  }
+  .navbar-nav li{
+   margin: 5px 0px;
+  }
+  .container-fluid{
+    margin-top: 0px;
+  }
+  .navbar{
+    z-index: 999;
+  }
+  
+  
+  @media only screen and (min-width: 1000px) {
+    .navbar{
+      position: fixed;
+      width: 100%;
+      top: 0%;
+    }
+    #navbarSupportedContent{
+      margin: 0;
+      padding: 0;
+      position: absolute ;
+      right: 66px;
+    }
+    .container-fluid{
+      padding-left: 5%;
+  
+    }
+  }
+.contactUsSection{
+    justify-content: space-between;
+   }
+
+   /* sc-component-id: NavDesktop__StyledLink-sc-xreqku-1 */
+.fsnEF {
+  margin-top: 10px;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: 500;
+  line-height: 2px;
+  color: rgb(244, 243, 242);
+  color: #212121;
+  font-family: Helvetica;
+  font-size: 18px;
+  opacity: 0.4;
+  position: relative;
+}
+.fsnEF:hover {
+  color: var(--color2) !important ;
+  opacity: 1;
+}
+.fsnEF:hover:after {
+  content: "";
+  left:15%;
+  position: absolute;
+  bottom: -10px;
+  width: 60px;
+  height: 3px;
+  background-color: var(--color1);
+}
+.active {
+  margin-top: 10px;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: 500;
+  line-height: 2px;
+  color: var(--color2) !important ;
+  font-family: Helvetica;
+  font-size: 18px;
+  opacity: 1;
+  position: relative;
+}
+.active::after{
+  content: "";
+  left:15%;
+  position: absolute;
+  bottom: -10px;
+  width: 60px;
+  height: 3px;
+  background-color: var(--color1);
+}
+
+@media only screen and (max-width: 1000px) {
+  .fsnEF:hover:after {
+    content: "";
+    left:0;
+    width: .1px;
+    background-color: var(--color1);
+    opacity: 0.4;
+
+  }
+}
+  
+
+
+/* team */
+/* .team-section{
+  background: rgb(240, 240, 240);
+} */
+.wwr{
+  margin-bottom: 4rem;
+}
+.img-t{
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  padding: 0%;
+}
+.img-t img{
+  width: 100%;
+}
+.content-t{
+  position: relative;
+  height: 300px;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content-t img{
+  position: absolute;
+  width: 12px;
+  top: 4%;
+  left: 4%;
+  background-color: black;
+  border-radius: 50%;
+  margin-bottom: 5%;
+}
+.content-t p,.content-t h3{
+  text-align: center;
+}
+.content-t h3{
+  margin-bottom: 4%;
+}
+
+.hover{
+  color:var(--color2);
+  background-color: #f7f7f7;
+}
+#team{
+  pointer-events: auto;
+}
+.pointer {
+  cursor: pointer !important;
+}
+
+.icon{
+  width: 90%; 
+  background-color: black;
+  border-radius: 50%;
+  transition: 0.2s ease-in-out ;
+}
+.icon:hover{
+  width: 70%;
+  background: var(--color2);
+}
+
+/* hero download */
+#download{
+  background: linear-gradient(260deg, #CFF5CE, #77D3A7);
+  height: 400px;
+  margin: 201px 0 0 0;
+}
+.download-mockup{
+  max-width: 581px;
+  margin-top: -179px;
+  position: absolute;
+}
+.download-btn{
+  margin-top: 20px ;
+  margin-left: -3px;
+  max-width: 200px;
+}
+.download-content{
+  margin-top: 6%;
+}
+
+
+@media only screen and (max-width: 670px) {
+  #download{
+    background: linear-gradient(260deg, #CFF5CE, #77D3A7);
+    height: 150px;
+    margin: 67px 0 40px 0;
+  }
+  .download-mockup{
+    max-width: 200px;
+    margin-top: -50px;
+    margin-left: -12px;
+    position: absolute;
+  }
+  .download-btn{
+    margin-top: auto ;
+    margin-left: -3px;
+    max-width: 69px;
+  }
+  .download-content h1{
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .download-content p{
+    font-size: 8px;
+  }
+  .download-content{
+    margin-top: 8%;
+  }
+}
+
+
+
+
+
+
+/* footer */
+#footer{
+  background-color: #111211;
+  bottom: 0%;
+}
+
+.white{
+  color: rgb(255, 255, 255);
+}
+@media only screen and (max-width: 770px) {
+  #footer{
+    text-align: center;
+  }
+}
+
+
+

@@ -1,3 +1,7 @@
+  // nav burger
+  function onClickManu(){
+    document.getElementById("navbarSupportedContent").classList.toggle("show");
+ }
 // part1
 (function (w, d, s, l, i) {
   w[l] = w[l] || [];
@@ -139,3 +143,4 @@ var myInput = document.getElementById('myInput')
 myModal.addEventListener('shown.bs.modal', function () {
   myInput.focus()
 })
+
