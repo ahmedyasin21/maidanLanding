@@ -1,0 +1,47 @@
+import React, { Component } from 'react';
+
+class ContactUs extends Component {
+    render() {
+        return (
+            <div>
+                {/* contact us */}
+<section id="contact-us">
+  <div className="container">
+    <div className="row">
+      <div className="col-12  col-md-6 col-lg-6 contact-us-left">
+        <h2>Take a Step Forward And Send Us A Message Today.</h2>
+        <p>We are here to help and answer any question you might have. We look forward to hearing from you.</p>
+        <form>
+          <input type="text" id="fullName" placeholder="Your Name" />
+          <input type="email" id="email" placeholder="like: abc@xyzmail.com" />
+          <input type="number" id="phone" placeholder="Phone no." />
+          <textarea name id="Message" cols={30} rows={10} placeholder="How can we help you?" defaultValue={""} />
+          <button className="btn-send" onclick="msgprint()">Sent Message</button>
+        </form>
+      </div>
+      <div className="col-12 col-md-6 col-lg-6 contact-us-right">
+        <lottie-player src="./img/Contact-us/lf30_editor_2bgt6tgu.json" background="transparent" speed="0.3" style={{width: '100%', height: 'auto'}} loop autoPlay /> 
+        <h5 className="white">Contact Us</h5>
+        <ul className="cont">
+          <img className="cont-img" src="../img/Contact-us/icons8-visit-50.png" alt="" /><li className="nav-item mb-2"><a href>328L Johar town, Lahore</a></li><br />
+          <img className="cont-img" src="../img/Contact-us/icons8-composing-mail-50.png" alt="" /><li className="nav-item mb-2"><a href>meidanpk@gmail.com</a></li><br />
+          <img className="cont-img" src="../img/Contact-us/icons8-call-female-24.png" alt="" /><li className="nav-item mb-2"><a href>+92-309-1422805</a></li>
+          <div className="icon">
+            <a href="#" target="_blank"><img src="../img/icon/googleplus-white.svg" /></a>
+            <a href="#" target="_blank"><img src="../img/icon/instagram-white.svg" /></a>
+            <a href="#" target="_blank"><img src="../img/icon/linkedin-white.svg" /></a>
+            <a href="#" target="_blank"><img src="../img/icon/facebook-white.svg" /></a>
+            <a href="#" target="_blank"><img src="../img/icon/twitter-white.svg" /></a>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+            </div>
+        );
+    }
+}
+
+export default ContactUs;
