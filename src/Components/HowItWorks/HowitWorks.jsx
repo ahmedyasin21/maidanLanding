@@ -1,6 +1,28 @@
 import React, { Component } from 'react';
+import $ from 'jquery';
 
 class HowitWorks extends Component {
+  componentDidMount(){
+    this.loadMore()
+ 
+   }
+ 
+   loadMore = ()=>{
+    
+     
+     $(document).ready (function () {
+       $(".content").slice(0, 6).show();
+       $("#loadMore").on("click", function(e){
+         e.preventDefault();
+         $(".content:hidden").slice(0, 6).slideDown();
+         if ($(".content:hidden").length == 0) {
+          $("#loadMore").text("No Content").addClass("noContent");
+         }
+       });
+       })
+ 
+   }
+
     render() {
         return (
             <div>
@@ -56,7 +78,7 @@ class HowitWorks extends Component {
         </div>
       </div>
     </div></section>
-  {/* benefits */}
+  {/* benefits */} 
   <div id="benefits" className="container mt-5">
     <div className="row">
       <h2 className="text-center mb-5">

@@ -1,6 +1,28 @@
 import React, { Component } from 'react';
+import $ from 'jquery';
 
 class Landing extends Component {
+ 
+  componentDidMount(){
+   this.loadMore()
+
+  }
+
+  loadMore = ()=>{
+   
+    
+    $(document).ready (function () {
+      $(".content").slice(0, 10).show();
+      $("#loadMore").on("click", function(e){
+        e.preventDefault();
+        $(".content:hidden").slice(0, 2).slideDown();
+        if ($(".content:hidden").length == 0) {
+         $("#loadMore").text("No Content").addClass("noContent");
+        }
+      });
+      })
+
+  }
     render() {
         return (
             <div>
@@ -257,7 +279,9 @@ class Landing extends Component {
     </div>
     <div className="row">
       <div className="col-12 btn">
-        <button> <a href="#" id="loadMore"> Load more </a></button>
+         <button onClick={this.loadMore}> <a href="#" id="loadMore"> Load more </a></button>
+        
+        
       </div>
     </div>
   </div>
