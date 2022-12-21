@@ -1,5 +1,4 @@
-import {Route,BrowserRouter,Switch } from  'react-router-dom'
-
+ import {Route,BrowserRouter,Switch } from  'react-router-dom'
 import Navbar from './Components/Layout/Header.jsx';
 import Footer from './Components/Layout/Footer';
 import Home from './Components/Home/Home';
@@ -10,6 +9,13 @@ import Contact from './Components/Contact/ContactUs';
 import About from './Components/About/AboutUs';
 import Merchant from './Components/Merchant/Merchant';
 import BlogListing from './Components/Blogs/Landing/Landing';
+import Blog1 from './Components/Blogs/BlogDetails/one';
+import Blog2 from './Components/Blogs/BlogDetails/two';
+import Blog3 from './Components/Blogs/BlogDetails/three';
+import Blog4 from './Components/Blogs/BlogDetails/four';
+import Blog5 from './Components/Blogs/BlogDetails/five';
+import Blog6 from './Components/Blogs/BlogDetails/six';
+import Blog7 from './Components/Blogs/BlogDetails/seven';
 
 
 
@@ -27,6 +33,14 @@ function App() {
               <Route exact path="/about-us" component={About}/>
               <Route exact path="/merchant" component={Merchant}/>
               <Route exact path="/blog-listing" component={BlogListing}/>
+              <Route exact path="/blog/1" component={Blog1}/>
+              <Route exact path="/blog/2" component={Blog2}/>
+              <Route exact path="/blog/3" component={Blog3}/>
+              <Route exact path="/blog/4" component={Blog4}/>
+              <Route exact path="/blog/5" component={Blog5}/>
+              <Route exact path="/blog/6" component={Blog6}/>
+              <Route exact path="/blog/7" component={Blog7}/>
+
               <Route exact path="*" component={Footer}/>
           </div>
       </Switch>

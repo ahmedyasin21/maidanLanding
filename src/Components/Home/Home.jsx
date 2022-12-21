@@ -1,4 +1,6 @@
 import React, { Component,useRef, useState } from 'react';
+import  { Link, NavLink } from "react-router-dom";
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -191,10 +193,15 @@ class Home extends Component {
                 <div className="card__img--hover" />
               </a>
               <div className="card__info">
-                <a href="./Blog/blog5.html">
+              <Link to={"/blog/5"} mode="dark" className=""> 
                   <span className="card__category"> Sport</span>
                   <h3 className="card__title">Reasons Why Teamwork Is Important in Sports</h3>
-                  <span className="card__by">by </span></a><a href="#" className="card__author" title="author">John Doe</a>
+                  <span className="card__by">by </span>
+              </Link>
+              <Link to={"/blog/5"} mode="dark" className="">
+                  <a href="#" className="card__author" title="author">John Doe</a>
+              </Link>
+
               </div>
             </article>   
           </section>
@@ -216,10 +223,15 @@ class Home extends Component {
                 <div className="card__img--hover" />
               </a>
               <div className="card__info">
-                <a href="./Blog/blog7.html">
+              <Link to={"/blog/7"} mode="dark" className=""> 
                   <span className="card__category"> Football</span>
                   <h3 className="card__title">5 strategies for getting ready for football season</h3>
-                  <span className="card__by">by </span></a><a href="#" className="card__author" title="author">John Doe</a>
+                  <span className="card__by">by </span>
+              </Link>
+              <Link to={"/blog/7"} mode="dark" className="">
+                  <a href="#" className="card__author" title="author">John Doe</a>
+              </Link>
+
               </div>
             </article> 
           </section>

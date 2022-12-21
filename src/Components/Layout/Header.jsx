@@ -1,5 +1,5 @@
 import React, { Component,useEffect,useState } from "react";
-import  { Link } from "react-router-dom";
+import  { Link, NavLink } from "react-router-dom";
 
 const HeaderComponent =()=>{
 
@@ -24,26 +24,26 @@ const HeaderComponent =()=>{
             <div className={`navbar-collapse collapse ${toggle? "show":null}`} id="navbarSupportedContent">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                <Link  to={"/"} mode="dark" className="nav-link fsnEF">Home</Link>
+                <NavLink exact   to={"/"} mode="dark" className="nav-link fsnEF">Home</NavLink>
                 </li>
                 <li className="nav-item">
-                <Link  to={"/about-us"} mode="dark" className="nav-link fsnEF">About us </Link>
+                <NavLink exact   to={"/about-us"} mode="dark" className="nav-link fsnEF">About us </NavLink>
 
                 </li>
                 <li className="nav-item">
-                <Link  to={"/how-it-works"} mode="dark" className="nav-link fsnEF">How It Works </Link>
+                <NavLink exact   to={"/how-it-works"} mode="dark" className="nav-link fsnEF">How It Works </NavLink>
                 </li>
                 <li className="nav-item">
-                <Link  to={"/merchant"} mode="dark" className="nav-link fsnEF">Merchant </Link>
+                <NavLink exact   to={"/merchant"} mode="dark" className="nav-link fsnEF">Merchant </NavLink>
                 </li>
                 <li className="nav-item">
-                <Link  to={"/blog-listing"} mode="dark" className="nav-link fsnEF">Blog </Link>
+                <NavLink exact   to={"/blog-listing"} mode="dark" className="nav-link fsnEF">Blog </NavLink>
                 </li>
                 <li className="nav-item">
-                <Link  to={"/contact-us"} mode="dark" className="nav-link fsnEF">Contact-Us </Link>
+                <NavLink exact   to={"/contact-us"} mode="dark" className="nav-link fsnEF">Contact-Us </NavLink>
                 </li>
                 <li className="nav-item">
-                  <Link  to={"/terms-and-conditions"} mode="dark" className="nav-link fsnEF">Term &amp; Condition </Link>
+                  <NavLink exact   to={"/terms-and-conditions"} mode="dark" className="nav-link fsnEF">Term &amp; Condition </NavLink>
 
                 </li>
                 {/* <li class="nav-item">

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
+import { Link } from 'react-router-dom';
 
 class Landing extends Component {
  
@@ -141,7 +142,7 @@ class Landing extends Component {
                 We are aware that it might be challenging to get outside during the gloomy, freezing months. Maidan has your back, so don't worry. There are several wonderful indoor activities that can keep you moving even when the weather isn't cooperating. <br />
                 The very best? At the click of a button, they're all accessible through Maidan.
               </p>
-              <a className="view-more" href="./blog1.html">View more</a>
+              <Link to={"/blog/1"} mode="dark" className="view-more"> View more </Link>
             </div>
           </div>
         </div> </div>
@@ -161,7 +162,8 @@ class Landing extends Component {
                 more accessible to those from more underprivileged situations. This has led to a 24% decrease in IMD 
                 (Indices of Multiple Deprivation) scores and a more than 50% rise in facility usage.
               </p>
-              <a className="view-more" href="./blog2.html">View more</a>
+              <Link to={"/blog/2"} mode="dark" className="view-more"> View more </Link>
+
             </div>
           </div>
         </div> </div>
@@ -175,7 +177,8 @@ class Landing extends Component {
               </h5>
               <p>Everyone was happy to see a sport return after a prolonged absence, and it appears tennis has emerged from its covid-19&nbsp;sabbatical stronger than ever. Tennis has benefited greatly by being one of the first few sports to be given permission to reopen, despite the absence of Tennis action on our courts and screens. Tennis is being ranked as one of the modern sports with the highest COVID security. Therefore, for those who are just starting out in tennis and may be seeking some advice before unlocking their inner player&nbsp;on the court. Maidan's came up with the concept to list some shots you can at least try to play in your first tennis match.&nbsp;&nbsp;
               </p>
-              <a className="view-more" href="./blog3.html">View more</a>
+              <Link to={"/blog/3"} mode="dark" className="view-more"> View more </Link>
+
             </div>
           </div>
         </div> </div>
@@ -194,7 +197,7 @@ class Landing extends Component {
               </p>
               <p>The greatest players from across the world are even invited to participate in the first-ever WPT "World Padel Tour" at the Spanish headquarters.
               </p>
-              <a className="view-more" href="./blog4.html">View more</a>
+              <Link to={"/blog/4"} mode="dark" className="view-more"> View more </Link>
             </div>
           </div>
         </div> </div>
@@ -210,7 +213,7 @@ class Landing extends Component {
               </p>
               <p>Have you ever thought about what it is specifically that makes a football team successful? It is collaboration, after all! Even if it is common to lose games occasionally, with collaboration, you may assure that you prevail the following time. Following that, the following are some factors that contribute to the importance of teamwork in football:
               </p>
-              <a className="view-more" href="./blog5.html">View more</a>
+              <Link to={"/blog/5"} mode="dark" className="view-more"> View more </Link>
             </div>
           </div>
         </div> </div>
@@ -233,7 +236,7 @@ class Landing extends Component {
                 <li>More documentation for employees who handle reservations and open facilities
                 </li>
               </ul>
-              <a className="view-more" href="./blog6.html">View more</a>
+              <Link to={"/blog/6"} mode="dark" className="view-more"> View more </Link>
             </div>
           </div>
         </div> </div>
@@ -252,7 +255,7 @@ class Landing extends Component {
               </li>
               <p>Stretching exercises should be a part of your pre-game and training regimen, even if they are not the most enjoyable aspect of playing sports. Your range of motion, as well as your flexibility and stiffness, can all be improved with their assistance. 
               </p>
-              <a className="view-more" href="./blog7.html">View more</a>
+              <Link to={"/blog/7"} mode="dark" className="view-more"> View more </Link>
             </div>
           </div>
         </div> </div>
@@ -278,10 +281,10 @@ class Landing extends Component {
     </div> </div> */}
     </div>
     <div className="row">
-      <div className="col-12 btn">
-         <button onClick={this.loadMore}> <a href="#" id="loadMore"> Load more </a></button>
-        
-        
+    <div className="col-12 btn" onClick={this.loadMore}>
+      <a href="#" id="loadMore">
+         <button >  Load more </button>
+      </a>
       </div>
     </div>
   </div>

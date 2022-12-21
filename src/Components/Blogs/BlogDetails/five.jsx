@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class five extends Component {
     render() {
@@ -63,21 +64,23 @@ class five extends Component {
           <div className="row">
             <h5 className="text-center py-4">More Blogs </h5>
           </div>
+
           {/* 1 */}
-          <a href="./blog1.html">
+          <Link to={"/blog/1"}>
             <div className="row py-3 m-blog">
               <div className="col-4">
-                <img src="../img/blog/blog1S.png" alt="" />
+                <img src="../img/blog/Blog1S.png" alt="" />
               </div>
               <div className="col-8">
-                <h6>5 indoor sports to keep you active over winter:
+                <h6>What is Padel Tennis?
                 </h6>
-                <p className="m-0" style={{fontSize: 'x-small'}}>How well are all those pledges and resolutions to get more active holding up after a month into the New Year?</p>
-                <p className="text-muted "><span>Sports</span> 20 Dec 2022</p>
+                <p className="m-0" style={{fontSize: 'x-small'}}>One of the grassroots sports with the quickest growth in Pakistan is padel tennis. In the Pakistan, the sport has kept gaining popularity.</p>
+                <p className="text-muted "><span>Cricket</span> 20 Dec 2022</p>
               </div>
-            </div></a>
+            </div>
+            </Link>
           {/* 2 */}
-          <a href="./blog2.html">
+          <Link to={"/blog/2"}>
             <div className="row py-3 m-blog">
               <div className="col-4">
                 <img src="../img/blog/blog2S.png" alt="" />
@@ -88,9 +91,10 @@ class five extends Component {
                 </p>
                 <p className="text-muted "><span>Cricket</span> 20 Dec 2022</p>
               </div>
-            </div></a>
+            </div>
+            </Link>
           {/* 3 */}
-          <a href="./blog3.html">
+          <Link to={"/blog/3"}>
             <div className="row py-3 m-blog">
               <div className="col-4">
                 <img src="../img/blog/Blog3S.png" alt="" />
@@ -101,9 +105,10 @@ class five extends Component {
                 <p className="m-0" style={{fontSize: 'x-small'}}>Everyone was happy to see a sport return after a prolonged absence, and it appears tennis has emerged</p>
                 <p className="text-muted "><span>Cricket</span> 20 Dec 2022</p>
               </div>
-            </div></a>
+            </div>
+            </Link>
           {/* 4 */}
-          <a href="./blog4.html">
+          <Link to={"/blog/4"}>
             <div className="row py-3 m-blog">
               <div className="col-4">
                 <img src="../img/blog/Blog4S.png" alt="" />
@@ -114,9 +119,24 @@ class five extends Component {
                 <p className="m-0" style={{fontSize: 'x-small'}}>One of the grassroots sports with the quickest growth in Pakistan is padel tennis. In the Pakistan, the sport has kept gaining popularity.</p>
                 <p className="text-muted "><span>Cricket</span> 20 Dec 2022</p>
               </div>
-            </div></a>
+            </div>
+          </Link>
+          {/* 5 */}
+          {/* <Link to={"/blog/5"}>
+            <div className="row py-3 m-blog">
+              <div className="col-4">
+                <img src="../img/blog/Blog5S.png" alt="" />
+              </div>
+              <div className="col-8">
+                <h6>Reasons Why Teamwork Is Important in Football
+                </h6>
+                <p className="m-0" style={{fontSize: 'x-small'}}>Football is one of the most popular sports in the world, among the many others that people enjoy.</p>
+                <p className="text-muted "><span>Cricket</span> 20 Dec 2022</p>
+              </div>
+            </div>
+            </Link> */}
           {/* 6 */}
-          <a href="./blog6.html">
+          <Link to={"/blog/6"}>
             <div className="row py-3 m-blog">
               <div className="col-4">
                 <img src="../img/blog/Blog6S.png" alt="" />
@@ -127,9 +147,10 @@ class five extends Component {
                 <p className="m-0" style={{fontSize: 'x-small'}}>In order to encourage schools to make their sports facilities available to the community, children, and</p>
                 <p className="text-muted "><span>Cricket</span> 20 Dec 2022</p>
               </div>
-            </div></a>
+            </div>
+            </Link>
           {/* 7 */}
-          <a href="./blog7.html">
+          <Link to={"/blog/7"}>
             <div className="row py-3 m-blog">
               <div className="col-4">
                 <img src="../img/blog/blog7S.png" alt="" />
@@ -141,8 +162,8 @@ class five extends Component {
                 <p className="text-muted "><span>Cricket</span> 20 Dec 2022</p>
               </div>
             </div>     
-          </a>
-        </div>     
+          </Link>
+        </div>    
       </div>
     </div>
   </section>
