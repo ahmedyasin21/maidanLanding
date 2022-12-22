@@ -217,7 +217,7 @@ class HowitWorks extends Component {
     </div>
     <div className="row">
       <div className="col-12 btn" onClick={this.loadMore}>
-      <a href="#" id="loadMore">\
+      <a href="#" id="loadMore">
          <button >  Load more </button>
       </a>
       </div>

@@ -1,4 +1,9 @@
 import React, { Component } from 'react';
+import Lottie from "lottie-react";
+// import ContactUs from  "../../../public/img/Contact-us/ContactUs.json" 
+// import dinosaurs from '../../../public/img/Contact-us/ContactUs.json' assert {type: 'json'};
+import * as animationData from '../../lottieFiles/ContactUslottie.json'
+
 
 class ContactUs extends Component {
     render() {
@@ -20,7 +25,8 @@ class ContactUs extends Component {
         </form>
       </div>
       <div className="col-12 col-md-6 col-lg-6 contact-us-right">
-        <lottie-player src="./img/Contact-us/lf30_editor_2bgt6tgu.json" background="transparent" speed="0.3" style={{width: '100%', height: 'auto'}} loop autoPlay /> 
+      <Lottie animationData={animationData } loop={true} />    
+        {/* <lottie-player src="./img/Contact-us/lf30_editor_2bgt6tgu.json" background="transparent" speed="0.3" style={{width: '100%', height: 'auto'}} loop autoPlay />  */}
         <h5 className="white">Contact Us</h5>
         <ul className="cont">
           <img className="cont-img" src="../img/Contact-us/icons8-visit-50.png" alt="" /><li className="nav-item mb-2"><a href>328L Johar town, Lahore</a></li><br />

@@ -1,10 +1,11 @@
 import React, { Component,useRef, useState } from 'react';
 import  { Link, NavLink } from "react-router-dom";
+import "./home.css";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
+// Import Swiper stylesn
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";

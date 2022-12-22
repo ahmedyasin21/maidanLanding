@@ -1,4 +1,16 @@
 import React, { Component } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper stylesn
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+// import "./styles.css";
+import { Autoplay, Pagination, Navigation } from "swiper";
+
+
 
 class AboutUs extends Component {
     render() {
@@ -88,6 +100,7 @@ class AboutUs extends Component {
         <p>s Consider us the Pakistan’s largest open-door digital sports club where you may make reservations on demand from any location at no additional charge. Find your favorite playground and select time-slot availability. From concept to activity, move. With just a few taps and swipes, users of our software will be transported to sport venues where they can score goals or compete with friends for shuttlecocks.
         </p>
       </div>
+      {/* team */}
       <div className="row mt-4" id="Team">
         <div className="py-5 team4">
           <div className="container">
@@ -103,7 +116,7 @@ class AboutUs extends Component {
                 {/* Row */}
                 <div className="row">
                   <div className="col-md-12 text-center">
-                    <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t1.jpg" alt="wrapkit" className="img-fluid rounded-circle" />
+                    <img src="../img/about/1670854408662.jpeg" alt="wrapkit" className="img-fluid rounded-circle" />
                   </div>
                   <div className="col-md-12 text-center">
                     <div className="pt-2">
@@ -111,9 +124,9 @@ class AboutUs extends Component {
                       <h6 className="subtitle mb-3">Property Specialist</h6>
                       <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
                       <ul className="list-inline">
-                        <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><img src="../img/icon/facebook-white.svg" alt="" className="icon" /></a></li>
-                        <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><img src="../img/icon/linkedin-white.svg" alt="" className="icon" /></a></li>
-                        <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><img src="../img/icon/instagram-white.svg" alt="" className="icon" /></a></li>
+                        <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><img src="../img/icon/facebook-white.svg" alt="" className="Icon" /></a></li>
+                        <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><img src="../img/icon/linkedin-white.svg" alt="" className="Icon" /></a></li>
+                        <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><img src="../img/icon/instagram-white.svg" alt="" className="Icon" /></a></li>
                       </ul>
                     </div>
                   </div>
@@ -126,7 +139,7 @@ class AboutUs extends Component {
                 {/* Row */}
                 <div className="row">
                   <div className="col-md-12 text-center">
-                    <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t2.jpg" alt="wrapkit" className="img-fluid rounded-circle" />
+                    <img src="../img/about/1670854408662.jpeg" alt="wrapkit" className="img-fluid rounded-circle" />
                   </div>
                   <div className="col-md-12 text-center">
                     <div className="pt-2">
@@ -134,9 +147,9 @@ class AboutUs extends Component {
                       <h6 className="subtitle mb-3">Property Specialist</h6>
                       <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
                       <ul className="list-inline">
-                        <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><img src="../img/icon/facebook-white.svg" alt="" className="icon" /></a></li>
-                        <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><img src="../img/icon/linkedin-white.svg" alt="" className="icon" /></a></li>
-                        <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><img src="../img/icon/instagram-white.svg" alt="" className="icon" /></a></li>
+                        <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><img src="../img/icon/facebook-white.svg" alt="" className="Icon" /></a></li>
+                        <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><img src="../img/icon/linkedin-white.svg" alt="" className="Icon" /></a></li>
+                        <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><img src="../img/icon/instagram-white.svg" alt="" className="Icon" /></a></li>
                       </ul>
                     </div>
                   </div>
@@ -149,7 +162,7 @@ class AboutUs extends Component {
                 {/* Row */}
                 <div className="row">
                   <div className="col-md-12 text-center">
-                    <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t3.jpg" alt="wrapkit" className="img-fluid rounded-circle" />
+                    <img src="../img/about/1670854408662.jpeg" alt="wrapkit" className="img-fluid rounded-circle" />
                   </div>
                   <div className="col-md-12 text-center">
                     <div className="pt-2">
@@ -157,9 +170,9 @@ class AboutUs extends Component {
                       <h6 className="subtitle mb-3">Property Specialist</h6>
                       <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
                       <ul className="list-inline">
-                        <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><img src="../img/icon/facebook-white.svg" alt="" className="icon" /></a></li>
-                        <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><img src="../img/icon/linkedin-white.svg" alt="" className="icon" /></a></li>
-                        <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><img src="../img/icon/instagram-white.svg" alt="" className="icon" /></a></li>
+                        <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><img src="../img/icon/facebook-white.svg" alt="" className="Icon" /></a></li>
+                        <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><img src="../img/icon/linkedin-white.svg" alt="" className="Icon" /></a></li>
+                        <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><img src="../img/icon/instagram-white.svg" alt="" className="Icon" /></a></li>
                       </ul>
                     </div>
                   </div>
@@ -172,7 +185,7 @@ class AboutUs extends Component {
                 {/* Row */}
                 <div className="row">
                   <div className="col-md-12 text-center">
-                    <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t4.jpg" alt="wrapkit" className="img-fluid rounded-circle" />
+                    <img src="../img/about/hamza.jpeg" alt="wrapkit" className="img-fluid rounded-circle" />
                   </div>
                   <div className="col-md-12 text-center">
                     <div className="pt-2">
@@ -180,9 +193,9 @@ class AboutUs extends Component {
                       <h6 className="subtitle mb-3">Property Specialist</h6>
                       <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
                       <ul className="list-inline">
-                        <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><img src="../img/icon/facebook-white.svg" alt="" className="icon" /></a></li>
-                        <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><img src="../img/icon/linkedin-white.svg" alt="" className="icon" /></a></li>
-                        <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><img src="../img/icon/instagram-white.svg" alt="" className="icon" /></a></li>
+                        <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><img src="../img/icon/facebook-white.svg" alt="" className="Icon" /></a></li>
+                        <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><img src="../img/icon/linkedin-white.svg" alt="" className="Icon" /></a></li>
+                        <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><img src="../img/icon/instagram-white.svg" alt="" className="Icon" /></a></li>
                       </ul>
                     </div>
                   </div>
@@ -195,6 +208,52 @@ class AboutUs extends Component {
       </div>
     </div>
   </section>
+
+  {/*  */}
+  <div className="container">
+    <div className="row">
+      <Swiper className='mt-5'
+          onSlideChange={() => console.log('slide change')}
+          onSwiper={(swiper) => console.log(swiper)}
+          autoplay={{
+            delay: 4000,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          modules={[Autoplay, Pagination, Navigation]}
+
+        >
+          <SwiperSlide>
+          <div className="testimonial-block">
+            <div className="inner-box">
+              <div className="text">Why is this important? Because clients want to know the businesses they depend on for advice, are well managed in their own right.  Not only that but this event gives you the chance to give your back-office team</div>
+              <div className="info-box">
+                <div className="thumb"><img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="" /></div>
+                <h4 className="name">Mahfuz Riad</h4>
+                <span className="designation">Ui Designer &amp; CEO</span>
+              </div>
+            </div>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide>
+          <div className="testimonial-block">
+            <div className="inner-box">
+              <div className="text">Why is this important? Because clients want to know the businesses they depend on for advice, are well managed in their own right.  Not only that but this event gives you the chance to give your back-office team</div>
+              <div className="info-box">
+                <div className="thumb"><img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="" /></div>
+                <h4 className="name">Mahfuz Riad</h4>
+                <span className="designation">Ui Designer &amp; CEO</span>
+              </div>
+            </div>
+          </div>
+          </SwiperSlide>
+          
+        </Swiper> 
+    </div>
+  </div>
+
   {/* hero */}
   <section id="download"> 
     <div className="container">

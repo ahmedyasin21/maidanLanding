@@ -11,7 +11,7 @@ class Term extends Component {
       <div className="col-12"><h3 className="heading">Term And Condition</h3></div>
     </div>
     <hr style={{color: 'green', height: '3px'}} />
-    <div className="row">
+    <div className="row ">
       <p>This page contains the terms and conditions that govern your use of the websites www. meidan.pk, or any other facility websites utilizing our products or services ("Site"), applications for mobile, tablet, and other smart devices, and application program interfaces (collectively, the "Application"), including by accessing and browsing it, printing, copying, and downloading from it, posting to it, linking to or from it, or registering with it ("Use") (collectively, the "Site Terms"). Read these site terms carefully. You attest that you have read, comprehended, and agree to all of the terms of the Site Terms by continuing to use the Site. You may not use or proceed to use this website or application if you do not agree to all of its terms.</p>
       <br />
       <p>Before using the site or application, read these policies thoroughly as they regulate your use thereof. We also advise that you print a copy of these terms for your records so you can refer to them later.</p>
@@ -22,7 +22,7 @@ class Term extends Component {
     </div>
     <div className="row py-5">
       <h3>Information about us</h3>
-      <p>Meidan, a business name of ----------------, is the company that runs this website and application ("We", "Our" or "Us").    </p>
+      <p>Meidan, a business name of , is the company that runs this website and application ("We", "Our" or "Us").    </p>
       <br />
       <p>We are a (limited) company with registration number -------------- in Pakistan, Lahore. -------------------------------------------------------is the address for our registered office.</p>
       <br />

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import  {Link, NavLink } from "react-router-dom";
 
 class Footer extends Component {
     render() {
@@ -24,19 +25,36 @@ class Footer extends Component {
           <h5 className="white">Section</h5>
           <ul className="nav flex-column">
             {/* <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li> */}
-            <li className="nav-item mb-2"><a href="#how" className="nav-link p-0 text-muted">How it works</a></li>
-            <li className="nav-item mb-2"><a href="#blog-1" className="nav-link p-0 text-muted">Register Your Ground</a></li>
-            <li className="nav-item mb-2"><a href="#about-1" className="nav-link p-0 text-muted">About Us</a></li>
+            <li className="nav-item">
+                <Link to={"/how-it-works"} mode="dark" className="nav-link p-0 text-muted mb-2">How It Works </Link>
+            </li>
+            <li className="nav-item">
+                <Link to={"/merchant"} mode="dark" className="nav-link p-0 text-muted mb-2">Register Your Ground</Link>
+            </li>
+            <li className="nav-item">
+                <Link to={"/about-us"} mode="dark" className="nav-link p-0 text-muted mb-2">About Us </Link>
+            </li>
+            {/* <li className="nav-item mb-2"><a href="#blog-1" className="nav-link p-0 text-muted">Register Your Ground</a></li>
+            <li className="nav-item mb-2"><a href="#about-1" className="nav-link p-0 text-muted">About Us</a></li> */}
             {/* <li class="nav-item mb-2"><a href="#FAQ" class="nav-link p-0 text-muted">FAQs</a></li> */}
           </ul>
         </div>
         <div className="col-6 col-md-2 mb-3">
           <h5 className="white">Section</h5>
           <ul className="nav flex-column">
+          <li className="nav-item">
+                <Link to={"/blog-listing"} mode="dark" className="nav-link p-0 text-muted mb-2">Blog </Link>
+          </li>
+          <li className="nav-item">
+              <Link to={"/contact-us"} mode="dark" className="nav-link p-0 text-muted mb-2">Contact Us </Link>
+          </li>
+          <li className="nav-item">
+              <Link to={"/terms-and-conditions"} mode="dark" className="nav-link p-0 text-muted mb-2">Term &amp; Condition </Link>
+          </li>
             {/* <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li> */}
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Blog</a></li>
+            {/* <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Blog</a></li>
             <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Contact Us</a></li>
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Term &amp; Condition</a></li>
+            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Term &amp; Condition</a></li> */}
             {/* <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li> */}
           </ul>
         </div> 

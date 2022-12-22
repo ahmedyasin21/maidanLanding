@@ -4,7 +4,6 @@ import Footer from './Components/Layout/Footer';
 import Home from './Components/Home/Home';
 import Terms from './Components/Terms/Term';
 import HowitWorks from './Components/HowItWorks/HowitWorks';
-import Landing from './Components/Blogs/Landing/Landing';
 import Contact from './Components/Contact/ContactUs';
 import About from './Components/About/AboutUs';
 import Merchant from './Components/Merchant/Merchant';

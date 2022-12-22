@@ -27,7 +27,7 @@ class Merchant extends Component {
         <div className="row">
           {/* Column */}
           <div className="col-md-4 wrap-service11-box">
-            <div className="card card-shadow border-0 mb-4">
+            <div className="card card-shadow border-0 mb-4" style={{overflow: "unset"}}>
               <div className="p-4">
                 <div className="icon-space">
                   <div className="icon-round text-center d-inline-block rounded-circle bg-success-gradiant"><img className="icon-d" src="../img/become-a-merchant/1.svg" alt="" style={{paddingBottom: '14px'}} /></div>
@@ -42,7 +42,7 @@ class Merchant extends Component {
           </div>
           {/* Column */}
           <div className="col-md-4 wrap-service11-box">
-            <div className="card card-shadow border-0 mb-4">
+            <div className="card card-shadow border-0 mb-4"style={{overflow: "unset"}}>
               <div className="p-4">
                 <div className="icon-space">
                   <div className="icon-round text-center d-inline-block rounded-circle bg-success-gradiant"><img className="icon-d" src="../img/become-a-merchant/2.svg" alt="" style={{paddingBottom: '14px'}} /></div>
@@ -57,7 +57,7 @@ class Merchant extends Component {
           </div>
           {/* Column */}
           <div className="col-md-4 wrap-service11-box">
-            <div className="card card-shadow border-0 mb-4">
+            <div className="card card-shadow border-0 mb-4"style={{overflow: "unset"}}>
               <div className="p-4">
                 <div className="icon-space">
                   <div className="icon-round text-center d-inline-block rounded-circle bg-success-gradiant"><img className="icon-d" src="../img/become-a-merchant/3.svg" alt="" /></div>
@@ -70,7 +70,7 @@ class Merchant extends Component {
           </div>
           {/* Column */}
           <div className="col-md-4 wrap-service11-box">
-            <div className="card card-shadow border-0 mb-4">
+            <div className="card card-shadow border-0 mb-4"style={{overflow: "unset"}}>
               <div className="p-4">
                 <div className="icon-space">
                   <div className="icon-round text-center d-inline-block rounded-circle bg-success-gradiant"><img className="icon-d" src="../img/become-a-merchant/4.svg" alt="" style={{paddingBottom: '14px'}} /></div>
@@ -83,7 +83,7 @@ class Merchant extends Component {
           </div>
           {/* Column */}
           <div className="col-md-4 wrap-service11-box">
-            <div className="card card-shadow border-0 mb-4">
+            <div className="card card-shadow border-0 mb-4"style={{overflow: "unset"}}>
               <div className="p-4">
                 <div className="icon-space">
                   <div className="icon-round text-center d-inline-block rounded-circle bg-success-gradiant"><img className="icon-d" src="../img/become-a-merchant/5.svg" alt="" /></div>
@@ -98,7 +98,7 @@ class Merchant extends Component {
           </div>
           {/* Column */}
           <div className="col-md-4 wrap-service11-box">
-            <div className="card card-shadow border-0 mb-4">
+            <div className="card card-shadow border-0 mb-4"style={{overflow: "unset"}}>
               <div className="p-4">
                 <div className="icon-space">
                   <div className="icon-round text-center d-inline-block rounded-circle bg-success-gradiant"><img className="icon-d" src="../img/become-a-merchant/6.svg" alt="" /></div>
@@ -113,7 +113,7 @@ class Merchant extends Component {
           </div>
           {/* Column */}
           <div className="col-md-4 wrap-service11-box">
-            <div className="card card-shadow border-0 mb-4">
+            <div className="card card-shadow border-0 mb-4"style={{overflow: "unset"}}>
               <div className="p-4">
                 <div className="icon-space">
                   <div className="icon-round text-center d-inline-block rounded-circle bg-success-gradiant"><img className="icon-d" src="../img/become-a-merchant/7.svg" alt="" style={{paddingBottom: '14px'}} /></div>
@@ -125,7 +125,7 @@ class Merchant extends Component {
           </div>
           {/* Column */}
           <div className="col-md-4 wrap-service11-box">
-            <div className="card card-shadow border-0 mb-4">
+            <div className="card card-shadow border-0 mb-4"style={{overflow: "unset"}}>
               <div className="p-4">
                 <div className="icon-space">
                   <div className="icon-round text-center d-inline-block rounded-circle bg-success-gradiant"><img className="icon-d" src="../img/become-a-merchant/8.svg" alt="" style={{paddingBottom: '4px'}} /></div>
@@ -138,7 +138,7 @@ class Merchant extends Component {
           </div>
           {/* Column */}
           <div className="col-md-4 wrap-service11-box">
-            <div className="card card-shadow border-0 mb-4">
+            <div className="card card-shadow border-0 mb-4"style={{overflow: "unset"}}>
               <div className="p-4">
                 <div className="icon-space">
                   <div className="icon-round text-center d-inline-block rounded-circle bg-success-gradiant"><img className="icon-d" src="../img/become-a-merchant/9.svg" alt="" style={{paddingBottom: '14px'}} /></div>
