@@ -1,6 +1,7 @@
  import {Route,BrowserRouter,Switch } from  'react-router-dom'
 import Navbar from './Components/Layout/Header.jsx';
 import Footer from './Components/Layout/Footer';
+import Hero from './Components/Layout/Hero'
 import Home from './Components/Home/Home';
 import Terms from './Components/Terms/Term';
 import HowitWorks from './Components/HowItWorks/HowitWorks';
@@ -40,6 +41,7 @@ function App() {
               <Route exact path="/blog/6" component={Blog6}/>
               <Route exact path="/blog/7" component={Blog7}/>
 
+              <Route exact path="*" component={Hero}/>
               <Route exact path="*" component={Footer}/>
           </div>
       </Switch>

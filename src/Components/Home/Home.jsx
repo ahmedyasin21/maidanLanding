@@ -31,7 +31,7 @@ class Home extends Component {
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
       autoplay={{
-        delay: 2000,
+        delay: 5000,
         disableOnInteraction: false,
       }}
       pagination={{
@@ -190,9 +190,9 @@ class Home extends Component {
                 </div>
               </div>
               <div className="card__img" />
-              <a href="./Blog/blog5.html" className="card_link">
+              <Link to={"/blog/5" } className="card_link"> 
                 <div className="card__img--hover" />
-              </a>
+              </Link>
               <div className="card__info">
               <Link to={"/blog/5"} mode="dark" className=""> 
                   <span className="card__category"> Sport</span>
@@ -200,7 +200,7 @@ class Home extends Component {
                   <span className="card__by">by </span>
               </Link>
               <Link to={"/blog/5"} mode="dark" className="">
-                  <a href="#" className="card__author" title="author">John Doe</a>
+                  <a href="#" className="card__author" title="author">Maira</a>
               </Link>
 
               </div>
@@ -220,9 +220,9 @@ class Home extends Component {
                 </div>
               </div>
               <div className="card__img" />
-              <a href="./Blog/blog7.html" className="card_link">
+              <Link to={"/blog/7" } className="card_link"> 
                 <div className="card__img--hover" />
-              </a>
+              </Link>
               <div className="card__info">
               <Link to={"/blog/7"} mode="dark" className=""> 
                   <span className="card__category"> Football</span>
@@ -230,7 +230,7 @@ class Home extends Component {
                   <span className="card__by">by </span>
               </Link>
               <Link to={"/blog/7"} mode="dark" className="">
-                  <a href="#" className="card__author" title="author">John Doe</a>
+                  <a href="#" className="card__author" title="author">Maira</a>
               </Link>
 
               </div>
@@ -247,24 +247,7 @@ class Home extends Component {
       </div>
     </div>
   </section>
-  {/* hero */}
-  <section id="download">
-    <div className="container">
-      <div className="row">
-        <div className="col-6 col-sm-6 col-md-6 col-lg-6"><img className="download-mockup" src="./img/Download/meidan mockup .png" alt="" /></div>
-        <div className="col-6 col-sm-6 col-md-6 col-lg-6 download-content">
-          <div className="row"><h1>Download the Meidan App</h1></div>
-          <div className="row"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam itaque rem </p></div>
-          <div className="row">
-            <div className="col-12">
-              <a href><img className="download-btn" src="./img/Download/png-clipart-app-store-google-play-apple-apple-text-logo 2.png" alt="" /></a>
-              <a href><img className="download-btn" src="./img/Download/png-clipart-app-store-google-play-apple-apple-text-logo 1.png" alt="" /></a></div>
-            {/* <div class="col-6"><img class="download-btn" src="./img/Download/png-clipart-app-store-google-play-apple-apple-text-logo 1.png" alt=""></div> */}
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+
   {/* FAQ */}
   <section id="FAQ">
     <div className="accordion accordion-flush" id="accordionFlushExample">

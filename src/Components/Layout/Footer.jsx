@@ -62,10 +62,10 @@ class Footer extends Component {
           <form>
             <h5 className="white">Contact Us</h5>
             <ul className="nav flex-column mt-4 white">
-              <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">328L Johar town, Lahore</a>
+              <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">328L Johar town, Lahore, Pakistan </a>
               </li>
-              <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">meidanpk@gmail.com</a></li>
-              <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">+92-309-1422805</a></li>
+              <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">contact@meidan.pk</a></li>
+              <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">04237870328</a></li>
             </ul>
           </form>
         </div>
@@ -73,7 +73,7 @@ class Footer extends Component {
       <hr className="white" />
       <div className="row  text-center">
         <div className="col">
-          <p className="white" style={{fontSize: '10px'}}>© 2022 MEIDAN PRIVATE LIMITED. ALL RIGHTS RESERVED.</p>
+          <p className="white" style={{fontSize: '10px'}}>© 2022  MEIDAN TECHNOLOGIES (PRIVATE) LIMITED ALL RIGHTS RESERVED.</p>
         </div>
       </div>
     </footer>

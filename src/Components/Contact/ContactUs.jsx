@@ -29,9 +29,9 @@ class ContactUs extends Component {
         {/* <lottie-player src="./img/Contact-us/lf30_editor_2bgt6tgu.json" background="transparent" speed="0.3" style={{width: '100%', height: 'auto'}} loop autoPlay />  */}
         <h5 className="white">Contact Us</h5>
         <ul className="cont">
-          <img className="cont-img" src="../img/Contact-us/icons8-visit-50.png" alt="" /><li className="nav-item mb-2"><a href>328L Johar town, Lahore</a></li><br />
-          <img className="cont-img" src="../img/Contact-us/icons8-composing-mail-50.png" alt="" /><li className="nav-item mb-2"><a href>meidanpk@gmail.com</a></li><br />
-          <img className="cont-img" src="../img/Contact-us/icons8-call-female-24.png" alt="" /><li className="nav-item mb-2"><a href>+92-309-1422805</a></li>
+          <img className="cont-img" src="../img/Contact-us/icons8-visit-50.png" alt="" /><li className="nav-item mb-2"><a href>328L Johar town, Lahore, Pakistan</a></li><br />
+          <img className="cont-img" src="../img/Contact-us/icons8-composing-mail-50.png" alt="" /><li className="nav-item mb-2"><a href>contact@meidan.pk</a></li><br />
+          <img className="cont-img" src="../img/Contact-us/icons8-call-female-24.png" alt="" /><li className="nav-item mb-2"><a href>04237870328</a></li>
           <div className="icon">
             <a href="#" target="_blank"><img src="../img/icon/googleplus-white.svg" /></a>
             <a href="#" target="_blank"><img src="../img/icon/instagram-white.svg" /></a>

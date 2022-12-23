@@ -112,9 +112,31 @@ class AboutUs extends Component {
             </div>
             <div className="row">
               {/* column  */}
-              <div className="col-lg-3 mb-4">
+              <div className="col-lg-4 mb-4">
                 {/* Row */}
                 <div className="row">
+                  <div className="col-md-12 text-center">
+                    <img src="../img/about/usama.png" alt="wrapkit" className="img-fluid rounded-circle" />
+                  </div>
+                  <div className="col-md-12 text-center">
+                    <div className="pt-2">
+                      <h5 className="mt-4 font-weight-medium mb-0">Usama Ashraf</h5>
+                      <spam className="mb-3"> Ui Ux Developer</spam>
+                      <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
+                      <ul className="list-inline">
+                        <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><img src="../img/icon/facebook-white.svg" alt="" className="Icon" /></a></li>
+                        <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><img src="../img/icon/linkedin-white.svg" alt="" className="Icon" /></a></li>
+                        <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><img src="../img/icon/instagram-white.svg" alt="" className="Icon" /></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                {/* Row */}
+              </div>
+              {/* column  */}
+              {/* <div className="col-lg-4 mb-4"> */}
+                {/* Row */}
+                {/* <div className="row">
                   <div className="col-md-12 text-center">
                     <img src="../img/about/1670854408662.jpeg" alt="wrapkit" className="img-fluid rounded-circle" />
                   </div>
@@ -130,21 +152,20 @@ class AboutUs extends Component {
                       </ul>
                     </div>
                   </div>
-                </div>
-                {/* Row */}
-              </div>
+                </div> 
+              </div>*/}
               {/* column  */}
               {/* column  */}
-              <div className="col-lg-3 mb-4">
+              <div className="col-lg-4 mb-4">
                 {/* Row */}
                 <div className="row">
                   <div className="col-md-12 text-center">
-                    <img src="../img/about/1670854408662.jpeg" alt="wrapkit" className="img-fluid rounded-circle" />
+                    <img src="../img/about/ahmed 1.png" alt="wrapkit" className="img-fluid rounded-circle" />
                   </div>
                   <div className="col-md-12 text-center">
                     <div className="pt-2">
-                      <h5 className="mt-4 font-weight-medium mb-0">Michael Doe</h5>
-                      <h6 className="subtitle mb-3">Property Specialist</h6>
+                      <h5 className="mt-4 font-weight-medium mb-0">Ahmed Yaseen</h5>
+                      <spam className="mb-3">Full stack Developer &amp; Director</spam>
                       <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
                       <ul className="list-inline">
                         <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><img src="../img/icon/facebook-white.svg" alt="" className="Icon" /></a></li>
@@ -158,30 +179,7 @@ class AboutUs extends Component {
               </div>
               {/* column  */}
               {/* column  */}
-              <div className="col-lg-3 mb-4">
-                {/* Row */}
-                <div className="row">
-                  <div className="col-md-12 text-center">
-                    <img src="../img/about/1670854408662.jpeg" alt="wrapkit" className="img-fluid rounded-circle" />
-                  </div>
-                  <div className="col-md-12 text-center">
-                    <div className="pt-2">
-                      <h5 className="mt-4 font-weight-medium mb-0">Michael Doe</h5>
-                      <h6 className="subtitle mb-3">Property Specialist</h6>
-                      <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
-                      <ul className="list-inline">
-                        <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><img src="../img/icon/facebook-white.svg" alt="" className="Icon" /></a></li>
-                        <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><img src="../img/icon/linkedin-white.svg" alt="" className="Icon" /></a></li>
-                        <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><img src="../img/icon/instagram-white.svg" alt="" className="Icon" /></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                {/* Row */}
-              </div>
-              {/* column  */}
-              {/* column  */}
-              <div className="col-lg-3 mb-4">
+              <div className="col-lg-4 mb-4">
                 {/* Row */}
                 <div className="row">
                   <div className="col-md-12 text-center">
@@ -189,8 +187,8 @@ class AboutUs extends Component {
                   </div>
                   <div className="col-md-12 text-center">
                     <div className="pt-2">
-                      <h5 className="mt-4 font-weight-medium mb-0">Michael Doe</h5>
-                      <h6 className="subtitle mb-3">Property Specialist</h6>
+                      <h5 className="mt-4 font-weight-medium mb-0">Hamza Yaseen</h5>
+                      <spam className="mb-3" > Director</spam>
                       <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
                       <ul className="list-inline">
                         <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><img src="../img/icon/facebook-white.svg" alt="" className="Icon" /></a></li>
@@ -228,11 +226,23 @@ class AboutUs extends Component {
           <SwiperSlide>
           <div className="testimonial-block">
             <div className="inner-box">
+              <div className="info-box mb-5">
+                <div className="thumb"><img src="../img/about/hamza.jpeg" alt="" /></div>
+                <h4 className="name">Hanza Yaseen</h4>
+                <span className="designation">Director</span>
+              </div>
+              <div className="text">Why is this important? Because clients want to know the businesses they depend on for advice, are well managed in their own right.  Not only that but this event gives you the chance to give your back-office team</div>
+            </div>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide>
+          <div className="testimonial-block">
+            <div className="inner-box">
               <div className="text">Why is this important? Because clients want to know the businesses they depend on for advice, are well managed in their own right.  Not only that but this event gives you the chance to give your back-office team</div>
               <div className="info-box">
-                <div className="thumb"><img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="" /></div>
-                <h4 className="name">Mahfuz Riad</h4>
-                <span className="designation">Ui Designer &amp; CEO</span>
+                <div className="thumb"><img src="../img/about/ahmed 1.png" alt="" /></div>
+                <h4 className="name">Ahmed Yaseen</h4>
+                <span className="designation">Full stack Developer &amp; Director</span>
               </div>
             </div>
           </div>
@@ -242,36 +252,19 @@ class AboutUs extends Component {
             <div className="inner-box">
               <div className="text">Why is this important? Because clients want to know the businesses they depend on for advice, are well managed in their own right.  Not only that but this event gives you the chance to give your back-office team</div>
               <div className="info-box">
-                <div className="thumb"><img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="" /></div>
-                <h4 className="name">Mahfuz Riad</h4>
-                <span className="designation">Ui Designer &amp; CEO</span>
+                <div className="thumb"><img src="../img/about/usama.png" alt="" /></div>
+                <h4 className="name">Usama Ashraf</h4>
+                <span className="designation">Ui UX Developr</span>
               </div>
             </div>
           </div>
           </SwiperSlide>
-          
+
         </Swiper> 
     </div>
   </div>
 
-  {/* hero */}
-  <section id="download"> 
-    <div className="container">
-      <div className="row">
-        <div className="col-6 col-sm-6 col-md-6 col-lg-6"><img className="download-mockup" src="../img/Download/meidan mockup .png" alt="" /></div>
-        <div className="col-6 col-sm-6 col-md-6 col-lg-6 download-content">
-          <div className="row"><h1>Download the Meidan App</h1></div>
-          <div className="row"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam itaque rem </p></div>
-          <div className="row">
-            <div className="col-12">
-              <a href><img className="download-btn" src="../img/Download/png-clipart-app-store-google-play-apple-apple-text-logo 2.png" alt="" /></a>
-              <a href><img className="download-btn" src="../img/Download/png-clipart-app-store-google-play-apple-apple-text-logo 1.png" alt="" /></a></div>
-            {/* <div class="col-6"><img class="download-btn" src="./img/Download/png-clipart-app-store-google-play-apple-apple-text-logo 1.png" alt=""></div> */}
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+
 </div>
 
             </div>

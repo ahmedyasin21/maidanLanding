@@ -731,7 +731,7 @@ color: #868686;
 #download{
   background: linear-gradient(260deg, #CFF5CE, #77D3A7);
   height: 400px;
-  margin: 201px 0 80px 0;
+  margin: 201px 0 0px 0;
 }
 .download-mockup{
   max-width: 581px;
@@ -752,7 +752,7 @@ color: #868686;
   #download{
     background: linear-gradient(260deg, #CFF5CE, #77D3A7);
     height: 150px;
-    margin: 67px 0 40px 0;
+    margin: 67px 0 0px 0;
   }
   .download-mockup{
     max-width: 200px;
@@ -992,12 +992,15 @@ color: #868686;
 #team{
   pointer-events: auto;
 }
+.img-fluid{
+  width: 45%;
+}
 .pointer {
   cursor: pointer !important;
 }
 
 .Icon{
-  width: 90%; 
+  width: 70%; 
   border-radius: 50%;
   transition: 0.2s ease-in-out ;
   background-color: #333333;
@@ -1158,7 +1161,7 @@ color: #868686;
 }
 
 .service-11 .subtitle {
-    color: #8d97ad;
+    color: #8d97ad ;
     line-height: 24px;
 }
 
@@ -1297,7 +1300,6 @@ color: #868686;
 #footer{
   background-color: #111211;
   bottom: 0%;
-  margin-top: 3%;
 }
 .white{
   color: rgb(255, 255, 255);

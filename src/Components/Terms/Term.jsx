@@ -22,9 +22,9 @@ class Term extends Component {
     </div>
     <div className="row py-5">
       <h3>Information about us</h3>
-      <p>Meidan, a business name of , is the company that runs this website and application ("We", "Our" or "Us").    </p>
+      <p>Meidan, a business name of <b>MEIDAN TECHNOLOGIES (PRIVATE) LIMITED</b>, is the company that runs this website and application     </p>
       <br />
-      <p>We are a (limited) company with registration number -------------- in Pakistan, Lahore. -------------------------------------------------------is the address for our registered office.</p>
+      <p>We are a (limited) company with registration number <b>0218503</b> in  <b>328L Joher Town, Lahore, Pakistan.</b> is the address for our registered office.</p>
       <br />
       <p>We represent vendors, owners, operators, clubs, coaches, referees, and/or umpires of sporting events, facilities, leagues, competitions, ladders, and events ("Facilities").</p>
     </div>
