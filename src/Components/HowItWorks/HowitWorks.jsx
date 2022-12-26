@@ -16,7 +16,7 @@ class HowitWorks extends Component {
          e.preventDefault();
          $(".content:hidden").slice(0, 6).slideDown();
          if ($(".content:hidden").length == 0) {
-          $("#loadMore").text("No Content").addClass("noContent");
+          $("#loadMore").text("").addClass("noContent");
          }
        });
        })
@@ -227,7 +227,7 @@ class HowitWorks extends Component {
     <div className="container">
       <div className="row text-center justify-content-center">
         <h2>
-          MERCHANT USER APP FEATURES
+          MEIDAN USER APP FEATURES
         </h2>
         <img src="../img/about/Group 325.png" alt="" style={{width: '70%'}} />
       </div>

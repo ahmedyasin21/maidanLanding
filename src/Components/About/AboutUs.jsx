@@ -101,7 +101,7 @@ class AboutUs extends Component {
         </p>
       </div>
       {/* team */}
-      <div className="row mt-4" id="Team">
+      {/* <div className="row mt-4" id="Team">
         <div className="py-5 team4">
           <div className="container">
             <div className="row justify-content-center mb-4">
@@ -110,10 +110,8 @@ class AboutUs extends Component {
                 <h6 className="subtitle"><span> You can relay on our amazing features list and also our customer services will be great experience for you without doubt and in no-time </span></h6>
               </div>
             </div>
-            <div className="row">
-              {/* column  */}
+            <div className="row mt-4">
               <div className="col-lg-4 mb-4">
-                {/* Row */}
                 <div className="row">
                   <div className="col-md-12 text-center">
                     <img src="../img/about/usama.png" alt="wrapkit" className="img-fluid rounded-circle" />
@@ -131,12 +129,9 @@ class AboutUs extends Component {
                     </div>
                   </div>
                 </div>
-                {/* Row */}
               </div>
-              {/* column  */}
-              {/* <div className="col-lg-4 mb-4"> */}
-                {/* Row */}
-                {/* <div className="row">
+              <div className="col-lg-4 mb-4">
+                 <div className="row">
                   <div className="col-md-12 text-center">
                     <img src="../img/about/1670854408662.jpeg" alt="wrapkit" className="img-fluid rounded-circle" />
                   </div>
@@ -153,20 +148,18 @@ class AboutUs extends Component {
                     </div>
                   </div>
                 </div> 
-              </div>*/}
-              {/* column  */}
-              {/* column  */}
+              </div>
+            
               <div className="col-lg-4 mb-4">
-                {/* Row */}
                 <div className="row">
                   <div className="col-md-12 text-center">
                     <img src="../img/about/ahmed 1.png" alt="wrapkit" className="img-fluid rounded-circle" />
                   </div>
                   <div className="col-md-12 text-center">
-                    <div className="pt-2">
+                    <div className="pt-2 ">
                       <h5 className="mt-4 font-weight-medium mb-0">Ahmed Yaseen</h5>
                       <spam className="mb-3">Full stack Developer &amp; Director</spam>
-                      <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
+                      <p></p>
                       <ul className="list-inline">
                         <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><img src="../img/icon/facebook-white.svg" alt="" className="Icon" /></a></li>
                         <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><img src="../img/icon/linkedin-white.svg" alt="" className="Icon" /></a></li>
@@ -175,12 +168,8 @@ class AboutUs extends Component {
                     </div>
                   </div>
                 </div>
-                {/* Row */}
               </div>
-              {/* column  */}
-              {/* column  */}
               <div className="col-lg-4 mb-4">
-                {/* Row */}
                 <div className="row">
                   <div className="col-md-12 text-center">
                     <img src="../img/about/hamza.jpeg" alt="wrapkit" className="img-fluid rounded-circle" />
@@ -198,17 +187,16 @@ class AboutUs extends Component {
                     </div>
                   </div>
                 </div>
-                {/* Row */}
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   </section>
 
   {/*  */}
-  <div className="container">
+  {/* <div className="container">
     <div className="row">
       <Swiper className='mt-5'
           onSlideChange={() => console.log('slide change')}
@@ -262,9 +250,23 @@ class AboutUs extends Component {
 
         </Swiper> 
     </div>
+  </div> */}
+<section id='ceo' className='mt-5'>
+  <div className="container mt-5">
+    <div className="row">
+      <div className="col-md-4 ceo-img"><img src="../img/about/hamza.jpeg" alt="" /></div>
+      <div className="col-md-8 ceo-text"> 
+        <div className='content-ceo'>
+          <h2 className='py-1'>Welcome message From <br /> CEO to New employes</h2>
+          <h5>Welcome message:</h5>
+          <p>1ST PRIZE WINNER – INTERNATIONAL CONFERENCE ON OPEN SOURCE SYSTEMS AND TECHNOLOGIES IN UET. I'm a Blockchain Expert and a Javascript developer having experience in Swing framework, Java core, Nodejs, Javascript, Solidity Smart Contracts, Ethereum, bitcoin, tron, ripple, stellar, cryptonote, Hyperledger, Ethereum or other blockchain forks, Centralized, Decentralized or Hybrid Crypto Exchanges and Private Blockchain Development.</p>
+          <h6>Hamza Yaseen</h6>
+          <p>Director</p>
+        </div>
+      </div>
+    </div>
   </div>
-
-
+</section>
 </div>
 
             </div>

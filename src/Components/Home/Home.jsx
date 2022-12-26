@@ -200,7 +200,7 @@ class Home extends Component {
                   <span className="card__by">by </span>
               </Link>
               <Link to={"/blog/5"} mode="dark" className="">
-                  <a href="#" className="card__author" title="author">Maira</a>
+                  <a href="#" className="card__author" title="author">MEIDAN</a>
               </Link>
 
               </div>
@@ -230,7 +230,7 @@ class Home extends Component {
                   <span className="card__by">by </span>
               </Link>
               <Link to={"/blog/7"} mode="dark" className="">
-                  <a href="#" className="card__author" title="author">Maira</a>
+                  <a href="#" className="card__author" title="author">MEIDAN</a>
               </Link>
 
               </div>
@@ -239,9 +239,9 @@ class Home extends Component {
         </div>
         <div className="row mt-4">
           <div className="col-12 justify-content-center  text-center">
-            <a href="./Blog/Blog-listing.html">
-              <button className="fill " data-bs-toggle="modal" data-bs-target="#exampleModal">View more</button>
-            </a>
+            <Link to={"/blog-listing"}>         
+                <button className="fill " data-bs-toggle="modal" data-bs-target="">View more</button>
+            </Link>
           </div>
         </div>
       </div>

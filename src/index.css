@@ -1009,6 +1009,42 @@ color: #868686;
   width: 80%;
   background: var(--color2);
 }
+#ceo{
+  padding: 2% 0 ;
+ background-image: url(../public/img/about/Frame\ 50.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.ceo-img{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ceo-img img{
+  width: 75%;
+  padding: 2%;
+  border-radius: 30px;
+}
+.ceo-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* box-shadow: 0 0 50px rgba(226,222,232,0.75); */
+  border-radius: 25px;
+  background-color: #fff;
+}
+.ceo-text h2{
+  line-height: 140%;
+  color: rgb(99, 99, 99);
+}
+
+
+.ceo-text .content-ceo{
+  padding: 5% 10%;
+}
 /*  */
 
 

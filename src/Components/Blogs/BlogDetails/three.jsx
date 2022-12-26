@@ -11,7 +11,7 @@ class three extends Component {
     <div className="container ">
       <div className="row">
         <div className="col-12 ">
-          <h1 className="text-center">BLOGs</h1>
+          <h1 className="text-center"></h1>
           <div className="text-center py-3 mb-4">
             <img className="blog-img " src="../img/blog/blog3b.png" alt="" />   
           </div>

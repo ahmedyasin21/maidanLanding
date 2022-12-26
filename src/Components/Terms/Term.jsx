@@ -22,11 +22,13 @@ class Term extends Component {
     </div>
     <div className="row py-5">
       <h3>Information about us</h3>
-      <p>Meidan, a business name of <b>MEIDAN TECHNOLOGIES (PRIVATE) LIMITED</b>, is the company that runs this website and application     </p>
+      <p>Meidan, a business name of <b>MEIDAN TECHNOLOGIES (PRIVATE) LIMITED</b>, is the company that runs this website and application
+     </p>
       <br />
-      <p>We are a (limited) company with registration number <b>0218503</b> in  <b>328L Joher Town, Lahore, Pakistan.</b> is the address for our registered office.</p>
+      <p>We are a Limited company with registration number <b>0218503</b> in Pakistan, Lahore. </p>
       <br />
-      <p>We represent vendors, owners, operators, clubs, coaches, referees, and/or umpires of sporting events, facilities, leagues, competitions, ladders, and events ("Facilities").</p>
+      <p>328L Joher Town, Lahore, Pakistan is the address for our registered office. </p>
+      <p>We represent vendors, owners, operators, clubs, coaches, referees, and/or umpires of sporting events, leagues, competitions etc.</p>
     </div>
     <div className="row py-3">
       <h3>Your use of this site:    </h3>
@@ -35,21 +37,21 @@ class Term extends Component {
       <p>You are only using this website or application for personal purposes. You may not use this site or application:    </p>
       <div>
         <ul>
-          <li>to copy, use, market, steal, or otherwise utilize any Content found on this website or application;      </li>
-          <li>to use the Content or any portion of it for commercial purposes (unless you first obtain a permit from Us,&nbsp;in which case We retain the right to charge you for such commercial exploitation);      </li>
-          <li>any action that violates an applicable law or regulation, is illegal or fraudulent, or has an illegal or fraudulent intent or result;      </li>
-          <li>to cause damage or seek to cause harm to kids in any way;      </li>
-          <li>to alter, reproduce, or publicly display any Content found on this website or application;      </li>
+          <li>to copy, use, market, steal, or otherwise utilize any Content found on this website or application.     </li>
+          <li>to use the Content or any portion of it for commercial purposes (unless you first obtain a permit from Us,&nbsp;in which case We retain the right to charge you for such commercial exploitation).     </li>
+          <li>any action that violates an applicable law or regulation, is illegal or fraudulent, or has an illegal or fraudulent intent or result.      </li>
+          <li>to cause damage or seek to cause harm to kids in any way.    </li>
+          <li>to alter, reproduce, or publicly display any Content found on this website or application.      </li>
           <li>to send or arrange for the sending of any unsolicited or unauthorized advertising, promotion, or similar solicitation (spam);</li>
-          <li>to clone, crawl, frame, or link to this Site or Application      </li>
+          <li>to clone, crawl, frame, or link to this Site or Application.      </li>
         </ul>
       </div>
       <div>
         <h5>You must not:</h5>
         <ul>
-          <li>intentionally introduce malware such as Trojan horses, worms, logic bombs, or other items that might be damaging to ourselves or others in terms of technology;</li>
-          <li>try to gain unauthorized access to any server, computer, or database linked to this site or application, the server on which it is housed, or any portion of any of those;</li>
-          <li>attack this website or application, including through distributed denial-of-service assaults;         </li>
+          <li>intentionally introduce malware such as Trojan horses, worms, logic bombs, or other items that might be damaging to ourselves or others in terms of technology.</li>
+          <li>try to gain unauthorized access to any server, computer, or database linked to this site or application, the server on which it is housed, or any portion of any of those.</li>
+          <li>attack this website or application, including through distributed denial-of-service assaults.         </li>
           <li>post or distribute any libelous,&nbsp;illegal messages or content (including any that contain another person's confidential or proprietary information, such as trade secrets, confidential business information, or copyrighted information), even if you don't have that person's permission to do so.        </li>
         </ul>
         <p>You agree that any violation of these Site Terms by you may constitute a crime under the Prevention of Electronic Crimes Act (PECA) 2016 (PAK), and that We may notify the appropriate law enforcement authorities of any actual or suspected violations and cooperate with them, including by disclosing your identity or IP address.
@@ -65,12 +67,12 @@ class Term extends Component {
       <p>Meidan isn't&nbsp;liable for any loss&nbsp;or damage&nbsp;that the supplier (or any person claiming under or through the supplier) may sustain, whether such losses or damages are direct, indirect, immediate, consequential, or arise from a contract, personal injury cases (including negligence), or any other cause whatsoever, and fall into any of the following categories:    </p>
       <div>
         <ul>
-          <li>Damage</li>
-          <li>loss of profits;</li>
-          <li>loss of anticipated savings;</li>
-          <li>loss of business opportunity;</li>
-          <li>loss of goodwill;</li>
-          <li>any injury or death occur from a booking that Meidan facilitated</li>
+          <li>Damage.</li>
+          <li>loss of profits.</li>
+          <li>loss of anticipated savings.</li>
+          <li>loss of business opportunity.</li>
+          <li>loss of goodwill.</li>
+          <li>any injury or death occur from a booking that Meidan facilitated.</li>
         </ul>
       </div>
     </div>
@@ -138,6 +140,7 @@ class Term extends Component {
         </ul>
       </div>
       <div className="row">
+        <h3 className='py-4'>Booking Cancelation amount distribution:</h3>
         <table className="table">
           <thead>
             <tr>

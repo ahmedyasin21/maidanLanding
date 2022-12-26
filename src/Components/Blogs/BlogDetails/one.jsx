@@ -10,7 +10,7 @@ class one extends Component {
     <div className="container ">
       <div className="row">
         <div className="col-12 ">
-          <h1 className="text-center">BLOGs</h1>
+          <h1 className="text-center"></h1>
           <div className="text-center py-3 mb-4">
             <img className="blog-img " src="../img/blog/blog1(b).png" alt="" />   
           </div>
@@ -81,11 +81,11 @@ class one extends Component {
             neighborhood gym or use that old treadmill in the garage to be active and adhere to your New Year's
             plans.
           </p>
-          <a href="../Blog/blog4.html">  
+          <Link to={"/blog/4"}>
             <h3 className="mt-3">What is Padel Tennis?
             </h3>
             <img src="../img/blog/blog4b.png" alt="" style={{width: '100%'}} />
-          </a>
+          </Link>
         </div>  
         <div className="col-md-4">
           <div className="row">

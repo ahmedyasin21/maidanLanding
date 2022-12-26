@@ -11,7 +11,7 @@ class five extends Component {
     <div className="container ">
       <div className="row">
         <div className="col-12 ">
-          <h1 className="text-center">BLOGs</h1>
+          <h1 className="text-center"></h1>
           <div className="text-center py-3 mb-4">
             <img className="blog-img " src="../img/blog/blog5b.png" alt="" />   
           </div>
@@ -53,12 +53,12 @@ class five extends Component {
           <p>
             Football Today is a great way to relax since it makes you focus on the here and now. You may mingle and make new acquaintances thanks to it as well. Football is a great sport for improving your teamwork abilities. Players must cooperate in order to succeed and support one another in overcoming obstacles.
           </p>
-          <a href="./blog6.html">               
+          <Link to={'/blog/6'}>
             <h3>
               The Role of Digital in Opening School Facilities
             </h3>
             <img src="../img/blog/blog6b.png" alt="" style={{width: '100%'}} />
-          </a>
+          </Link>
         </div>  
         <div className="col-md-4">
           <div className="row">
