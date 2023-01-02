@@ -27,9 +27,9 @@ class AboutUs extends Component {
       <div className="row mt-3">
         <div className="col-12 col-md-6 col-lg-6" style={{alignSelf: 'center'}}>
           <h3>Our Mission:</h3>
-          <p>Our goal is to increase facility usage by making it modest for everyone to participate in sports. We are happy to welcome everyone to the Meidan sporting community, whether they are early risers, scramblers, part-timers, full-timers, newcomers, or seasonal sports persons.
-            <br /> We understand that maintaining a work-life balance in an urban environment may be challenging, and our service makes it easier to discover places to play. Sport is crucial in fostering relationships, exchanging memories, and improving wellbeing. These factors define Maidan in its purest form. 
-          </p>
+          <p>We couldn't believe there wasn't a single location where athletes could identify, get in touch with, and reserve nearby sports fields. We started by conducting research, gaining support, and then developing a platform that displayed every sporting facility in Pakistan and was free and simple for anybody to use. </p>
+          <p>We are aware that maintaining a work-life balance in an urban environment may be challenging, and our services eliminate the stress of looking for locations and coworkers.</p>
+          <p>Our goal is to increase facility usage by making it simpler for everyone to participate in sports. Meidan plays a crucial role in bringing people together; sharing experiences and improving wellbeing are its defining characteristics.</p>          
         </div>
         <div className="col-12 col-md-6 col-lg-6" style={{alignSelf: 'center', textAlign: 'center'}}>
           <img src="../img/about/Group 177.png" alt="" style={{width: '60%'}} />
@@ -45,7 +45,7 @@ class AboutUs extends Component {
       </div>
       <div className="row pointer">
         {/* ---------------------------1 */}
-        <div className="col-12 col-md-4 col-lg-4 g-0 " onclick="location.href='#OurService'" id="ourservice">
+        <div className="col-12 col-md-4 col-lg-4 g-0 mt-2" onclick="location.href='#OurService'" id="ourservice">
           {/* 1 */}
           <div className="img-t">
             <img src="../img/about/Service.png" alt="" />
@@ -53,17 +53,15 @@ class AboutUs extends Component {
           {/* 2 */}
           <div className="content-t">
             <h3>Our Service.</h3>
-            <p>Starting with a vast array of free online tools, Maidan is raising the standard in terms of organizing sports and school communities.
-            </p>
+            <p>We facilitate fast booking for sporting venues all over the Pakistan by displaying popular nearby places for simple booking. Online payments based on the reserved ground and allow keeping an eye on reservations and forthcoming deals.</p>
           </div>
         </div>
         {/* ----------------------------2 */}
-        <div className="col-12 col-md-4 col-lg-4 g-0 " onclick="location.href='#OurCompany'" id="ourcompany">
+        <div className="col-12 col-md-4 col-lg-4 g-0 mt-2" onclick="location.href='#OurCompany'" id="ourcompany">
           {/* 2 */}
           <div className="content-t">
             <h3>Our Comapany.</h3>
-            <p>Starting with a vast array of free online tools, Maidan is raising the standard in terms of organizing sports and school communities.
-            </p>
+          <p>We let the world play so we build the highest quality and safest playgrounds list to the players of every age. We’ve been working to facilitate and encourage the recreational activities accessible to stay healthy and productive. </p>
           </div>
           {/* 1 */}
           <div className="img-t ">
@@ -71,35 +69,34 @@ class AboutUs extends Component {
           </div>
         </div>
         {/* ----------------------------3 */}
-        <div className="col-12 col-md-4 col-lg-4 g-0 " onclick="location.href='#Team'" id="team">
+        <div className="col-12 col-md-4 col-lg-4 g-0 mt-2" onclick="location.href='#Team'" id="team">
           {/* 1 */}
           <div className="img-t">
-            <img src="../img/about/Team.png" alt="" />
+            <img src="../img/about/Business vision-pana.png" alt="" />
           </div>
           {/* 2 */}
           <div className="content-t">
-            <h3>Our Team.</h3>
-            <p>Starting with a vast array of free online tools, Maidan is raising the standard in terms of organizing sports and school communities.
-            </p>
+            <h3>Our Director.</h3>
+            <p>Sports and games are significant components of most people's life. Professional players somehow manage but others get busy in daily routine. However, once they begin working, sports become a secondary concern. Meidan is supposed to be an all-working app, in my opinion. </p>
           </div>
         </div>
       </div>
     </div>
   </section>
   {/* servive */}
-  <section>
+  {/* <section>
     <div className="container">
       <div className="row py-5" id="OurService">
         <h3 className=" py-4">Our Service.</h3>
         <p>Consider us the Pakistan’s largest open-door digital sports club where you may make reservations on demand from any location at no additional charge. Find your favorite playground and select time-slot availability. From concept to activity, move. With just a few taps and swipes, users of our software will be transported to sport venues where they can score goals or compete with friends for shuttlecocks.
         </p>
-      </div>
+      </div> */}
       {/* Out Company */}
-      <div className="row " id="OurCompany">
+      {/* <div className="row " id="OurCompany">
         <h3 className=" py-4">Our Company.</h3>
         <p>s Consider us the Pakistan’s largest open-door digital sports club where you may make reservations on demand from any location at no additional charge. Find your favorite playground and select time-slot availability. From concept to activity, move. With just a few taps and swipes, users of our software will be transported to sport venues where they can score goals or compete with friends for shuttlecocks.
         </p>
-      </div>
+      </div> */}
       {/* team */}
       {/* <div className="row mt-4" id="Team">
         <div className="py-5 team4">
@@ -192,8 +189,8 @@ class AboutUs extends Component {
           </div>
         </div>
       </div> */}
-    </div>
-  </section>
+    {/* </div>
+  </section> */}
 
   {/*  */}
   {/* <div className="container">
@@ -251,15 +248,17 @@ class AboutUs extends Component {
         </Swiper> 
     </div>
   </div> */}
-<section id='ceo' className='mt-5'>
-  <div className="container mt-5">
+<section id='ceo' className='mt-5 '>
+  <div className="container mt-5 mb-5">
     <div className="row">
       <div className="col-md-4 ceo-img"><img src="../img/about/hamza.jpeg" alt="" /></div>
       <div className="col-md-8 ceo-text"> 
         <div className='content-ceo'>
-          <h2 className='py-1'>Welcome message From <br /> CEO to New employes</h2>
-          <h5>Welcome message:</h5>
-          <p>1ST PRIZE WINNER – INTERNATIONAL CONFERENCE ON OPEN SOURCE SYSTEMS AND TECHNOLOGIES IN UET. I'm a Blockchain Expert and a Javascript developer having experience in Swing framework, Java core, Nodejs, Javascript, Solidity Smart Contracts, Ethereum, bitcoin, tron, ripple, stellar, cryptonote, Hyperledger, Ethereum or other blockchain forks, Centralized, Decentralized or Hybrid Crypto Exchanges and Private Blockchain Development.</p>
+          <h2 className='py-1'>Director’s Vision:</h2>
+          {/* <h5>Welcome message:</h5> */}
+          <blockquote className='quote-card'>
+          <p>I launch this company to book playgrounds in across the Pakistan. It is a crucial factor to provide sports facilities to natives. I want to provide a comprehensive solution for your playground needs. I consider myself fortunate and am sincerely appreciative to all the clients who trust us with the security of their kids and special moments in their life. I am aware that this entails a heavy duty on me to offer my clients a reasonable price, excellent service, and honesty throughout the transaction.</p>
+          </blockquote>
           <h6>Hamza Yaseen</h6>
           <p>Director</p>
         </div>

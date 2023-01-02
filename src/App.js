@@ -16,6 +16,7 @@ import Blog4 from './Components/Blogs/BlogDetails/four';
 import Blog5 from './Components/Blogs/BlogDetails/five';
 import Blog6 from './Components/Blogs/BlogDetails/six';
 import Blog7 from './Components/Blogs/BlogDetails/seven';
+import ScrollToTop from './Components/ScrollToTop.js';
 
 
 
@@ -23,6 +24,7 @@ import Blog7 from './Components/Blogs/BlogDetails/seven';
 function App() {
   return (
     <BrowserRouter>
+    <ScrollToTop />
       <Switch>
           <div className="Wrapper">
               <Route exact path="*" component={Navbar}/>

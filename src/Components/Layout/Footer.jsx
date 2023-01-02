@@ -15,7 +15,6 @@ class Footer extends Component {
           <ul className="nav flex-column white">
             <p className="nav-link p-0 text-muted">Consider us the Pakistan’s largest open-door digital sports club where you may make reservations on demand from any location at no additional charge.</p>
           </ul>
-          <a href="#" target="_blank"><img src="./img/icon/googleplus-white.svg" /></a>
           <a href="https://www.instagram.com/meidanpk/" target="_blank"><img src="./img/icon/instagram-white.svg" /></a>
           <a href="#" target="_blank"><img src="./img/icon/linkedin-white.svg" /></a>
           <a href="https://www.facebook.com/profile.php?id=100087793651564" target="_blank"><img src="./img/icon/facebook-white.svg" /></a>
@@ -39,7 +38,7 @@ class Footer extends Component {
             {/* <li class="nav-item mb-2"><a href="#FAQ" class="nav-link p-0 text-muted">FAQs</a></li> */}
           </ul>
         </div>
-        <div className="col-6 col-md-2 mb-3">
+        <div className="col-12 col-md-2 mb-3">
           <h5 className="white">Section</h5>
           <ul className="nav flex-column">
           <li className="nav-item">

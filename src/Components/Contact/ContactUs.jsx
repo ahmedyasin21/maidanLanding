@@ -33,11 +33,10 @@ class ContactUs extends Component {
           <img className="cont-img" src="../img/Contact-us/icons8-composing-mail-50.png" alt="" /><li className="nav-item mb-2"><a href>contact@meidan.pk</a></li><br />
           <img className="cont-img" src="../img/Contact-us/icons8-call-female-24.png" alt="" /><li className="nav-item mb-2"><a href>04237870328</a></li>
           <div className="icon">
-            <a href="#" target="_blank"><img src="../img/icon/googleplus-white.svg" /></a>
-            <a href="#" target="_blank"><img src="../img/icon/instagram-white.svg" /></a>
+            <a href="https://www.instagram.com/meidanpk/" target="_blank"><img src="../img/icon/instagram-white.svg" /></a>
             <a href="#" target="_blank"><img src="../img/icon/linkedin-white.svg" /></a>
-            <a href="#" target="_blank"><img src="../img/icon/facebook-white.svg" /></a>
-            <a href="#" target="_blank"><img src="../img/icon/twitter-white.svg" /></a>
+            <a href="https://www.facebook.com/profile.php?id=100087793651564" target="_blank"><img src="../img/icon/facebook-white.svg" /></a>
+            <a href="https://twitter.com/meidanpk?t=PA2XknxiQltBwhbIuoN-TQ&s=08" target="_blank"><img src="../img/icon/twitter-white.svg" /></a>
           </div>
         </ul>
       </div>

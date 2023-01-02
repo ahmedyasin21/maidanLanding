@@ -154,6 +154,11 @@ a:hover{
 .contactUsSection{
  justify-content: space-between;
 }
+
+/* slider */
+.swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: 0 !important;
+}
 /* About */
 .modal-footer{
   justify-content: center;
@@ -664,7 +669,7 @@ top: 0;
 
 }
 .card {
-margin-right: 25px;
+/* margin-right: 25px; */
 transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
 background-color: #fff;
   width: 100%;
@@ -751,7 +756,7 @@ color: #868686;
 @media only screen and (max-width: 670px) {
   #download{
     background: linear-gradient(260deg, #CFF5CE, #77D3A7);
-    height: 150px;
+    height: 180px;
     margin: 67px 0 0px 0;
   }
   .download-mockup{
@@ -761,7 +766,7 @@ color: #868686;
     position: absolute;
   }
   .download-btn{
-    margin-top: auto ;
+    margin-top: 0px ;
     margin-left: -3px;
     max-width: 69px;
   }
@@ -773,7 +778,7 @@ color: #868686;
     font-size: 8px;
   }
   .download-content{
-    margin-top: 8%;
+    margin-top: 5%;
   }
 }
 
@@ -944,7 +949,11 @@ color: #868686;
       color: aliceblue;
       transition: 0.3s ease-in-out;
     }
-    
+    @media only screen and (max-width: 670px) {
+      button {
+        width: 100%;
+      }
+    }
   
 /* About */
 
@@ -959,7 +968,7 @@ color: #868686;
   padding: 0%;
 }
 .img-t img{
-  width: 100%;
+  width: 110%;
 }
 .content-t{
   position: relative;
@@ -1044,6 +1053,39 @@ color: #868686;
 
 .ceo-text .content-ceo{
   padding: 5% 10%;
+}
+.quote-card{
+  color:#222222;
+  padding: 20px;
+  padding-left: 50px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  min-height: 120px;
+}
+.quote-card:before {
+  font-family: Georgia, serif;
+  content: "“";
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  font-size: 5em;
+  color: rgba(#222222);
+  font-weight: normal;
+  opacity: 0.5;
+}
+
+.quote-card:after {
+  font-family: Georgia, serif;
+  content: "”";
+  position: absolute;
+  bottom: -60px;
+  line-height: 100px;
+  right: 0px;
+  font-size: 8em;
+  color: rgba(#222222);
+  opacity: 0.5;
+  font-weight: normal;
 }
 /*  */
 
