@@ -41,11 +41,11 @@ class AboutUs extends Component {
                   <h3>Our Mission:</h3>
                   <p>
                     We couldn't believe there wasn't a single location where
-                    athletes could identify, get in touch with, and reserve
-                    nearby sports fields. We started by conducting research,
-                    gaining support, and then developing a platform that
-                    displayed every sporting facility in Pakistan and was free
-                    and simple for anybody to use.{" "}
+                    athletes could identify, get in touch with, and book
+                    playgrounds in Lahore sports fields. We started by
+                    conducting research, gaining support, and then developing a
+                    platform that displayed every sporting facility in Pakistan
+                    and was free and simple for anybody to use.
                   </p>
                   <p>
                     We are aware that maintaining a work-life balance in an
@@ -54,10 +54,12 @@ class AboutUs extends Component {
                   </p>
                   <p>
                     Our goal is to increase facility usage by making it simpler
-                    for everyone to participate in sports. Meidan plays a
-                    crucial role in bringing people together; sharing
-                    experiences and improving wellbeing are its defining
-                    characteristics.
+                    for everyone to participate in sports by searching
+                    “playgrounds in Lahore”, “nearest snooker clubs”, “sports
+                    complex near me”, “video game shops”, and “outdoor and
+                    indoor game for adults and kids. Meidan plays a crucial role
+                    in bringing people together; sharing experiences and
+                    improving wellbeing are its defining characteristics.
                   </p>
                 </div>
                 <div
@@ -112,11 +114,11 @@ class AboutUs extends Component {
                     <div className="content-t">
                       <h3>Our Service.</h3>
                       <p>
-                        We facilitate fast booking for sporting venues all over
-                        the Pakistan by displaying popular nearby places for
-                        simple booking. Online payments based on the reserved
-                        ground and allow keeping an eye on reservations and
-                        forthcoming deals.
+                        We facilitate fast booking playgrounds in Lahore for
+                        sporting venues by displaying popular nearby places for
+                        simple booking. Online payments are based on the
+                        reserved ground and allow keeping an eye on reservations
+                        and forthcoming deals.
                       </p>
                     </div>
                   </div>

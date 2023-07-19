@@ -33,7 +33,7 @@ class six extends Component {
           </ul>
           <p>It is estimated that an extra RS 57 million will be made available over the course of the following three years as part of the next phase of Opening Schools Facilities.
           </p>
-          <h4 className="text-center">Three criteria to facilitate schools: 
+          <h4>Three criteria to facilitate schools: 
           </h4>
           <h5>Make sports facilities after&nbsp;schools&nbsp;hours
           </h5>

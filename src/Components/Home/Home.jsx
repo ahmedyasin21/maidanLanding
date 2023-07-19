@@ -63,19 +63,19 @@ class Home extends Component {
                   part-timers, full-timers, newcomers, or seasonal sports
                   persons. We understand that maintaining a work-life balance in
                   an urban environment may be challenging, and our service makes
-                  it easier to discover places to play. Sport is crucial in
-                  fostering relationships, exchanging memories, and improving
-                  wellbeing.
+                  it easier to discover places to play. Consider us the
+                  Pakistan’s largest open-door digital sports club where you may
+                  make reservations on demand from any location at no additional
+                  charge.
                 </p>
                 <p className="p2">
-                  Consider us the Pakistan’s largest open-door digital sports
-                  club where you may make reservations on demand from any
-                  location at no additional charge. Find your favorite
-                  playground and select time-slot availability. From concept to
-                  activity, move. With just a few taps and swipes, users of our
-                  application will be transported to sport venues where they can
-                  score goals or compete with friends for shuttlecocks. These
-                  factors define Meidan in its purest form.
+                  Find your favorite playground in Lahore and select time-slot
+                  availability. Meidan is all about booking sportsgrounds
+                  online. Only users have to search for "book playground in
+                  lahore", "nearest snooker clubs" and "sports complex near me",
+                  related results will be delivered. Their user may also have
+                  results for video game shops, outdoor and indoor games for
+                  adults and kids.
                 </p>
               </div>
               <div className=" col-lg-6  order-1 order-lg-2 text-center  ">
@@ -112,7 +112,7 @@ class Home extends Component {
                   className="how-img "
                   src="./img/How/Group 178.png"
                   alt=""
-                  style={{width:"100%"}}
+                  style={{ width: "100%" }}
                 />
               </div>
               <div
@@ -120,15 +120,16 @@ class Home extends Component {
                 data-aos="fade-left"
                 data-aos-duration="2000"
               >
-                <h2>What you Find</h2>
+                <h2>Find playgrounds in Lahore</h2>
                 <p>
-                  1. What you want to play ?<br />
-                  2. Where you want to play ?<br />
-                  3. When You want to Play ? <br />
-                  Discover the Pakistan’s largest network of sporting
-                  facilities. You only need to enter your location and sport
-                  before pressing the search button. Thats all and You will get
-                  number of suitable results according to your desire.
+                  1. What do you want to play ?<br />
+                  2. Where do you want to play ?<br />
+                  3. When do you want to Play ? <br />
+                  Discover Pakistan's largest network of playgrounds in Lahore.
+                  You only need to enter your location and sport before pressing
+                  the search button. That's all and You will get a number of
+                  suitable results according to your desired playgrounds in
+                  Lahore. Book playgrounds in Lahore.
                 </p>
               </div>
               {/* 2st book */}
@@ -138,14 +139,14 @@ class Home extends Component {
                   data-aos="fade-right"
                   data-aos-duration="2000"
                 >
-                  <h2>You can Book</h2>
+                  <h2>Book playgrounds in Lahore</h2>
                   <p>
                     Once you've found the ideal field, playground or sports
-                    club, you can schedule a booking quickly and pay more
-                    conveniently. Use the inquiry form to get in touch with the
-                    venue and make an online reservation. To make organizing
-                    sport easier, we collaborate with the top sports facilities
-                    in the Pakistan.
+                    club, you can schedule or book playgrounds in Lahore quickly
+                    and pay more conveniently. Use the inquiry form to get in
+                    touch with the venue and make an online reservation in
+                    playgrounds in Lahore. To make organizing sports easier, we
+                    collaborate with the top sports facilities in Pakistan.
                   </p>
                 </div>
                 <div
@@ -158,7 +159,7 @@ class Home extends Component {
                     alt=""
                     data-aos="fade-left"
                     data-aos-duration="2000"
-                    style={{width:"100%"}}
+                    style={{ width: "100%" }}
                   />
                 </div>
               </div>
@@ -172,7 +173,7 @@ class Home extends Component {
                   alt=""
                   data-aos="fade-right"
                   data-aos-duration="2000"
-                  style={{width:"100%"}}
+                  style={{ width: "100%" }}
                 />
               </div>
               <div
@@ -183,11 +184,11 @@ class Home extends Component {
                 <h2>You can Play</h2>
                 <p>
                   {" "}
-                  You're the hero; you easily discovered and reserved a gorgeous
-                  pitch or court, and it's time to start playing. The stage is
-                  prepared for your momentous game, in which hopes might be made
-                  or broken. Suffering is just momentary, while triumph is
-                  eternal.
+                  After booking a playground in Lahore you play. You're the
+                  hero; you easily discovered and reserved a gorgeous pitch or
+                  court, and it's time to start playing. The stage is prepared
+                  for your momentous game, in which hopes might be made or
+                  broken. Suffering is just momentary, while triumph is eternal.
                 </p>
               </div>
             </div>
@@ -198,12 +199,12 @@ class Home extends Component {
                   href="https://play.google.com/store/apps/details?id=com.meidanuserapp"
                   target="_blank"
                 >
-                 <button >Download app Now</button> 
+                  <button>Download app Now</button>
                 </a>
               </div>
             </div>
             {/* modal */}
-           
+
             <div
               className="modal fade"
               id="exampleModal"
@@ -253,7 +254,7 @@ class Home extends Component {
                 <h1>BLOGs</h1>
               </div>
             </div>
-            <div className="row">
+            {/* <div className="row">
               <div
                 className="col-12 col-md-6 col-lg-6"
                 data-aos="fade-right"
@@ -351,7 +352,268 @@ class Home extends Component {
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
+            <Swiper
+              className="mt-5"
+              slidesPerView={2}
+              onSlideChange={() => console.log("slide change")}
+              onSwiper={(swiper) => console.log(swiper)}
+              autoplay={{
+                delay: 3000,
+                disableOnInteraction: false,
+              }}
+              pagination={{
+                clickable: true,
+              }}
+              modules={[Autoplay, Pagination, Navigation]}
+            >
+              <SwiperSlide>
+                <section
+                  className="cards"
+                  style={{ marginRight: "20px", marginLeft: "20px" }}
+                >
+                  <article className="card card--1">
+                    <div className="card__info-hover">
+                      <svg className="card__like" viewBox="0 0 24 24">
+                        <path
+                          fill="#000000"
+                          d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z"
+                        />
+                      </svg>
+                      <div className="card__clock-info">
+                        <svg className="card__clock" viewBox="0 0 24 24">
+                          <path d="M12,20A7,7 0 0,1 5,13A7,7 0 0,1 12,6A7,7 0 0,1 19,13A7,7 0 0,1 12,20M19.03,7.39L20.45,5.97C20,5.46 19.55,5 19.04,4.56L17.62,6C16.07,4.74 14.12,4 12,4A9,9 0 0,0 3,13A9,9 0 0,0 12,22C17,22 21,17.97 21,13C21,10.88 20.26,8.93 19.03,7.39M11,14H13V8H11M15,1H9V3H15V1Z" />
+                        </svg>
+                        <span className="card__time">5 min</span>
+                      </div>
+                    </div>
+                    <div className="card__img" />
+                    <Link to={"/blog/5"} className="card_link">
+                      <div className="card__img--hover" />
+                    </Link>
+                    <div className="card__info">
+                      <Link to={"/blog/5"} mode="dark" className="">
+                        <span className="card__category"> Sport</span>
+                        <h3 className="card__title">
+                          Reasons Why Teamwork Is Important in Sports
+                        </h3>
+                        <span className="card__by">by </span>
+                      </Link>
+                      <Link to={"/blog/5"} mode="dark" className="">
+                        <a href="#" className="card__author" title="author">
+                          MEIDAN
+                        </a>
+                      </Link>
+                    </div>
+                  </article>
+                </section>
+              </SwiperSlide>
+              <SwiperSlide>
+                <section
+                  className="cards mt-4 mt-md-0"
+                  style={{ marginRight: "20px" }}
+                >
+                  <article className="card card--2">
+                    <div className="card__info-hover">
+                      <svg className="card__like" viewBox="0 0 24 24">
+                        <path
+                          fill="#000000"
+                          d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z"
+                        />
+                      </svg>
+                      <div className="card__clock-info">
+                        <svg className="card__clock" viewBox="0 0 24 24">
+                          <path d="M12,20A7,7 0 0,1 5,13A7,7 0 0,1 12,6A7,7 0 0,1 19,13A7,7 0 0,1 12,20M19.03,7.39L20.45,5.97C20,5.46 19.55,5 19.04,4.56L17.62,6C16.07,4.74 14.12,4 12,4A9,9 0 0,0 3,13A9,9 0 0,0 12,22C17,22 21,17.97 21,13C21,10.88 20.26,8.93 19.03,7.39M11,14H13V8H11M15,1H9V3H15V1Z" />
+                        </svg>
+                        <span className="card__time">5 min</span>
+                      </div>
+                    </div>
+                    <div className="card__img" />
+                    <Link to={"/blog/7"} className="card_link">
+                      <div className="card__img--hover" />
+                    </Link>
+                    <div className="card__info">
+                      <Link to={"/blog/7"} mode="dark" className="">
+                        <span className="card__category"> Football</span>
+                        <h3 className="card__title">
+                          5 strategies for getting ready for football season
+                        </h3>
+                        <span className="card__by">by </span>
+                      </Link>
+                      <Link to={"/blog/7"} mode="dark" className="">
+                        <a href="#" className="card__author" title="author">
+                          MEIDAN
+                        </a>
+                      </Link>
+                    </div>
+                  </article>
+                </section>
+              </SwiperSlide>
+              <SwiperSlide>
+                <section
+                  className="cards mt-4 mt-md-0"
+                  style={{ marginRight: "20px" }}
+                >
+                  <article className="card card--2">
+                    <div className="card__info-hover">
+                      <svg className="card__like" viewBox="0 0 24 24">
+                        <path
+                          fill="#000000"
+                          d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z"
+                        />
+                      </svg>
+                      <div className="card__clock-info">
+                        <svg className="card__clock" viewBox="0 0 24 24">
+                          <path d="M12,20A7,7 0 0,1 5,13A7,7 0 0,1 12,6A7,7 0 0,1 19,13A7,7 0 0,1 12,20M19.03,7.39L20.45,5.97C20,5.46 19.55,5 19.04,4.56L17.62,6C16.07,4.74 14.12,4 12,4A9,9 0 0,0 3,13A9,9 0 0,0 12,22C17,22 21,17.97 21,13C21,10.88 20.26,8.93 19.03,7.39M11,14H13V8H11M15,1H9V3H15V1Z" />
+                        </svg>
+                        <span className="card__time">5 min</span>
+                      </div>
+                    </div>
+                    <div className="card__img" />
+                    <Link to={"/blog/8"} className="card_link">
+                      <div className="card__img--hover" />
+                    </Link>
+                    <div className="card__info">
+                      <Link to={"/blog/8"} mode="dark" className="">
+                        <span className="card__category"> Football</span>
+                        <h3 className="card__title">
+                          Indoor Games for Adults:
+                        </h3>
+                        <span className="card__by">by </span>
+                      </Link>
+                      <Link to={"/blog/8"} mode="dark" className="">
+                        <a href="#" className="card__author" title="author">
+                          MEIDAN
+                        </a>
+                      </Link>
+                    </div>
+                  </article>
+                </section>
+              </SwiperSlide>
+              <SwiperSlide>
+                <section
+                  className="cards mt-4 mt-md-0"
+                  style={{ marginRight: "20px" }}
+                >
+                  <article className="card card--2">
+                    <div className="card__info-hover">
+                      <svg className="card__like" viewBox="0 0 24 24">
+                        <path
+                          fill="#000000"
+                          d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z"
+                        />
+                      </svg>
+                      <div className="card__clock-info">
+                        <svg className="card__clock" viewBox="0 0 24 24">
+                          <path d="M12,20A7,7 0 0,1 5,13A7,7 0 0,1 12,6A7,7 0 0,1 19,13A7,7 0 0,1 12,20M19.03,7.39L20.45,5.97C20,5.46 19.55,5 19.04,4.56L17.62,6C16.07,4.74 14.12,4 12,4A9,9 0 0,0 3,13A9,9 0 0,0 12,22C17,22 21,17.97 21,13C21,10.88 20.26,8.93 19.03,7.39M11,14H13V8H11M15,1H9V3H15V1Z" />
+                        </svg>
+                        <span className="card__time">5 min</span>
+                      </div>
+                    </div>
+                    <div className="card__img" />
+                    <Link to={"/blog/7"} className="card_link">
+                      <div className="card__img--hover" />
+                    </Link>
+                    <div className="card__info">
+                      <Link to={"/blog/7"} mode="dark" className="">
+                        <span className="card__category"> Football</span>
+                        <h3 className="card__title">
+                          Different Types of Outdoor Games:
+                        </h3>
+                        <span className="card__by">by </span>
+                      </Link>
+                      <Link to={"/blog/7"} mode="dark" className="">
+                        <a href="#" className="card__author" title="author">
+                          MEIDAN
+                        </a>
+                      </Link>
+                    </div>
+                  </article>
+                </section>
+              </SwiperSlide>
+              <SwiperSlide>
+                <section
+                  className="cards mt-4 mt-md-0"
+                  style={{ marginRight: "20px" }}
+                >
+                  <article className="card card--2">
+                    <div className="card__info-hover">
+                      <svg className="card__like" viewBox="0 0 24 24">
+                        <path
+                          fill="#000000"
+                          d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z"
+                        />
+                      </svg>
+                      <div className="card__clock-info">
+                        <svg className="card__clock" viewBox="0 0 24 24">
+                          <path d="M12,20A7,7 0 0,1 5,13A7,7 0 0,1 12,6A7,7 0 0,1 19,13A7,7 0 0,1 12,20M19.03,7.39L20.45,5.97C20,5.46 19.55,5 19.04,4.56L17.62,6C16.07,4.74 14.12,4 12,4A9,9 0 0,0 3,13A9,9 0 0,0 12,22C17,22 21,17.97 21,13C21,10.88 20.26,8.93 19.03,7.39M11,14H13V8H11M15,1H9V3H15V1Z" />
+                        </svg>
+                        <span className="card__time">5 min</span>
+                      </div>
+                    </div>
+                    <div className="card__img" />
+                    <Link to={"/blog/7"} className="card_link">
+                      <div className="card__img--hover" />
+                    </Link>
+                    <div className="card__info">
+                      <Link to={"/blog/7"} mode="dark" className="">
+                        <span className="card__category"> Football</span>
+                        <h3 className="card__title">
+                          Best Playground Equipment for School:
+                        </h3>
+                        <span className="card__by">by </span>
+                      </Link>
+                      <Link to={"/blog/7"} mode="dark" className="">
+                        <a href="#" className="card__author" title="author">
+                          MEIDAN
+                        </a>
+                      </Link>
+                    </div>
+                  </article>
+                </section>
+              </SwiperSlide>
+              <SwiperSlide>
+                <section
+                  className="cards mt-4 mt-md-0"
+                  style={{ marginRight: "20px" }}
+                >
+                  <article className="card card--2">
+                    <div className="card__info-hover">
+                      <svg className="card__like" viewBox="0 0 24 24">
+                        <path
+                          fill="#000000"
+                          d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z"
+                        />
+                      </svg>
+                      <div className="card__clock-info">
+                        <svg className="card__clock" viewBox="0 0 24 24">
+                          <path d="M12,20A7,7 0 0,1 5,13A7,7 0 0,1 12,6A7,7 0 0,1 19,13A7,7 0 0,1 12,20M19.03,7.39L20.45,5.97C20,5.46 19.55,5 19.04,4.56L17.62,6C16.07,4.74 14.12,4 12,4A9,9 0 0,0 3,13A9,9 0 0,0 12,22C17,22 21,17.97 21,13C21,10.88 20.26,8.93 19.03,7.39M11,14H13V8H11M15,1H9V3H15V1Z" />
+                        </svg>
+                        <span className="card__time">5 min</span>
+                      </div>
+                    </div>
+                    <div className="card__img" />
+                    <Link to={"/blog/7"} className="card_link">
+                      <div className="card__img--hover" />
+                    </Link>
+                    <div className="card__info">
+                      <Link to={"/blog/7"} mode="dark" className="">
+                        <span className="card__category"> Football</span>
+                        <h3 className="card__title">
+                          Difference between sports and games:
+                        </h3>
+                        <span className="card__by">by </span>
+                      </Link>
+                      <Link to={"/blog/7"} mode="dark" className="">
+                        <a href="#" className="card__author" title="author">
+                          MEIDAN
+                        </a>
+                      </Link>
+                    </div>
+                  </article>
+                </section>
+              </SwiperSlide>
+            </Swiper>
           </div>
         </section>
 

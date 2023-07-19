@@ -25,189 +25,190 @@ class HowitWorks extends Component {
         <div>
           {/* how it work */}
           <section id="how">
-          <div className="container mt-5 " style={{overflowX:"hidden"}}>
-            <div className="row justify-content-md-center text-center">
-              <div className="col">
-                <h1>How it works</h1>
-              </div>
-            </div>
-            {/* 1st find */}
-            <div className="row mt-5">
-              <div className="col-lg-6" id="howToImageContainer">
-                <img
-                  data-aos="fade-right"
-                  data-aos-duration="2000"
-                  className="how-img "
-                  style={{width:"100%"}}
-                  src="./img/How/Group 178.png"
-                  alt=""
-                />
-              </div>
-              <div
-                className="col-lg-6 how-text"
-                data-aos="fade-left"
-                data-aos-duration="2000"
-              >
-                <h2>What you Find</h2>
-                <p>
-                  1. What you want to play ?<br />
-                  2. Where you want to play ?<br />
-                  3. When You want to Play ? <br />
-                  Discover the Pakistan’s largest network of sporting
-                  facilities. You only need to enter your location and sport
-                  before pressing the search button. Thats all and You will get
-                  number of suitable results according to your desire.
-                </p>
-              </div>
-              {/* 2st book */}
-              <div className="row mt-5">
-                <div
-                  className="col-lg-6 how-text order-2 order-lg-1"
-                  data-aos="fade-right"
-                  data-aos-duration="2000"
-                >
-                  <h2>You can Book</h2>
-                  <p>
-                    Once you've found the ideal field, playground or sports
-                    club, you can schedule a booking quickly and pay more
-                    conveniently. Use the inquiry form to get in touch with the
-                    venue and make an online reservation. To make organizing
-                    sport easier, we collaborate with the top sports facilities
-                    in the Pakistan.
-                  </p>
+            <div className="container mt-5 " style={{ overflowX: "hidden" }}>
+              <div className="row justify-content-md-center text-center">
+                <div className="col">
+                  <h1>How it works</h1>
                 </div>
-                <div
-                  className="col-lg-6 order-1 order-lg-2"
-                  id="howToImageContainer"
-                >
+              </div>
+              {/* 1st find */}
+              <div className="row mt-5">
+                <div className="col-lg-6" id="howToImageContainer">
                   <img
-                    className="how-img "
-                    src="./img/How/Group 179.png"
-                    alt=""
-                    data-aos="fade-left"
+                    data-aos="fade-right"
                     data-aos-duration="2000"
-                    style={{width:"100%"}}
+                    className="how-img "
+                    style={{ width: "100%" }}
+                    src="./img/How/Group 178.png"
+                    alt=""
                   />
                 </div>
-              </div>
-            </div>
-            {/* 3st find */}
-            <div className="row mt-5">
-              <div className="col-lg-6" id="howToImageContainer">
-                <img
-                  className="how-img "
-                  src="./img/How/Mask group.png"
-                  alt=""
-                  data-aos="fade-right"
+                <div
+                  className="col-lg-6 how-text"
+                  data-aos="fade-left"
                   data-aos-duration="2000"
-                  style={{width:"100%"}}
-                />
-              </div>
-              <div
-                className="col-lg-6 how-text"
-                data-aos="fade-left"
-                data-aos-duration="2000"
-              >
-                <h2>You can Play</h2>
-                <p>
-                  {" "}
-                  You're the hero; you easily discovered and reserved a gorgeous
-                  pitch or court, and it's time to start playing. The stage is
-                  prepared for your momentous game, in which hopes might be made
-                  or broken. Suffering is just momentary, while triumph is
-                  eternal.
-                </p>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-12 justify-content-center  text-center">
-                <a
-                  className="fill  "
-                  href="https://play.google.com/store/apps/details?id=com.meidanuserapp"
-                  target="_blank"
                 >
-                 <button >Download app Now</button> 
-                </a>
-              </div>
-            </div>
-            {/* modal */}
-            <div
-              className="modal fade"
-              id="exampleModal"
-              tabIndex={-1}
-              aria-labelledby="exampleModalLabel"
-              aria-hidden="true"
-            >
-              <div className="modal-dialog">
-                <div className="modal-content">
-                  <div className="modal-header">
-                    <h5 className="modal-title" id="exampleModalLabel">
-                      Comming Soon
-                    </h5>
-                    <button
-                      type="button"
-                      className="btn-close"
-                      data-bs-dismiss="modal"
-                      aria-label="Close"
+                  <h2>Find Playgrounds in Lahore</h2>
+                  <p>
+                    1. What do you want to play ?<br />
+                    2. Where do you want to play ?<br />
+                    3. When do you want to Play ? <br />
+                    Discover Pakistan's largest network of playgrounds in
+                    Lahore. You only need to enter your location and sport
+                    before pressing the search button. That's all and You will
+                    get a number of suitable results according to your desired
+                    playgrounds in Lahore. Book playgrounds in Lahore
+                  </p>
+                </div>
+                {/* 2st book */}
+                <div className="row mt-5">
+                  <div
+                    className="col-lg-6 how-text order-2 order-lg-1"
+                    data-aos="fade-right"
+                    data-aos-duration="2000"
+                  >
+                    <h2>Book Playgrounds in Lahore</h2>
+                    <p>
+                      Once you've found the ideal field, playground or sports
+                      club, you can schedule a booking quickly and pay more
+                      conveniently. Use the inquiry form to get in touch with
+                      the venue and make an online reservation. To make
+                      organizing sport easier, we collaborate with the top
+                      sports facilities in the Pakistan.
+                    </p>
+                  </div>
+                  <div
+                    className="col-lg-6 order-1 order-lg-2"
+                    id="howToImageContainer"
+                  >
+                    <img
+                      className="how-img "
+                      src="./img/How/Group 179.png"
+                      alt=""
+                      data-aos="fade-left"
+                      data-aos-duration="2000"
+                      style={{ width: "100%" }}
                     />
                   </div>
-                  <div className="modal-body">
-                    Meidan application will be available on App Store &amp;
-                    Google Play Store Soon.
+                </div>
+              </div>
+              {/* 3st find */}
+              <div className="row mt-5">
+                <div className="col-lg-6" id="howToImageContainer">
+                  <img
+                    className="how-img "
+                    src="./img/How/Mask group.png"
+                    alt=""
+                    data-aos="fade-right"
+                    data-aos-duration="2000"
+                    style={{ width: "100%" }}
+                  />
+                </div>
+                <div
+                  className="col-lg-6 how-text"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                >
+                  <h2>You can Play</h2>
+                  <p>
+                    {" "}
+                    You're the hero; you easily discovered and reserved a
+                    gorgeous pitch or court, and it's time to start playing. The
+                    stage is prepared for your momentous game, in which hopes
+                    might be made or broken. Suffering is just momentary, while
+                    triumph is eternal.
+                  </p>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-12 justify-content-center  text-center">
+                  <a
+                    className="fill  "
+                    href="https://play.google.com/store/apps/details?id=com.meidanuserapp"
+                    target="_blank"
+                  >
+                    <button>Download app Now</button>
+                  </a>
+                </div>
+              </div>
+              {/* modal */}
+              <div
+                className="modal fade"
+                id="exampleModal"
+                tabIndex={-1}
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div className="modal-dialog">
+                  <div className="modal-content">
+                    <div className="modal-header">
+                      <h5 className="modal-title" id="exampleModalLabel">
+                        Comming Soon
+                      </h5>
+                      <button
+                        type="button"
+                        className="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      />
+                    </div>
+                    <div className="modal-body">
+                      Meidan application will be available on App Store &amp;
+                      Google Play Store Soon.
+                    </div>
+                    <div className="modal-footer">
+                      <button
+                        type="button"
+                        className="btn btn-danger"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
                   </div>
-                  <div className="modal-footer">
-                    <button
-                      type="button"
-                      className="btn btn-danger"
-                      data-bs-dismiss="modal"
-                    >
-                      Close
-                    </button>
+                </div>
+              </div>
+              <div
+                className="modal fade"
+                id="exampleModal"
+                tabIndex={-1}
+                role="dialog"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div className="modal-dialog" role="document">
+                  <div className="modal-content">
+                    <div className="modal-header">
+                      <h5 className="modal-title" id="exampleModalLabel">
+                        Modal title
+                      </h5>
+                      <button
+                        type="button"
+                        className="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">×</span>
+                      </button>
+                    </div>
+                    <div className="modal-body">...</div>
+                    <div className="modal-footer">
+                      <button
+                        type="button"
+                        className="btn btn-secondary"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                      <button type="button" className="btn btn-primary">
+                        Save changes
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div
-              className="modal fade"
-              id="exampleModal"
-              tabIndex={-1}
-              role="dialog"
-              aria-labelledby="exampleModalLabel"
-              aria-hidden="true"
-            >
-              <div className="modal-dialog" role="document">
-                <div className="modal-content">
-                  <div className="modal-header">
-                    <h5 className="modal-title" id="exampleModalLabel">
-                      Modal title
-                    </h5>
-                    <button
-                      type="button"
-                      className="close"
-                      data-dismiss="modal"
-                      aria-label="Close"
-                    >
-                      <span aria-hidden="true">×</span>
-                    </button>
-                  </div>
-                  <div className="modal-body">...</div>
-                  <div className="modal-footer">
-                    <button
-                      type="button"
-                      className="btn btn-secondary"
-                      data-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                    <button type="button" className="btn btn-primary">
-                      Save changes
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+          </section>
           {/* benefits */}
           <div id="benefits" className="container mt-5">
             <div className="row">
@@ -260,14 +261,14 @@ class HowitWorks extends Component {
                     </div>
                     <div className="">
                       <h6 className="font-weight-medium">
-                        Avoids long calls barrier{" "}
+                        Avoid long calls barrier{" "}
                       </h6>
                       <p className="fw-light text-muted">
-                        If we look back, players had to search grounds then make
-                        calls to find out charges and times. Mostly people
-                        didn't get favorable response. Moreover long calls take
-                        much time, energy and money. Meidan app has ended all
-                        the barriers.
+                        Avoid long calls barrier If we look back, players had to
+                        search playgrounds in Lahore then make calls to find out
+                        charges and times. Most people didn't get a favorable
+                        response. Moreover, long calls take much time, energy
+                        and money. Meidan app has ended all the barriers.
                       </p>
                     </div>
                   </div>
@@ -291,7 +292,7 @@ class HowitWorks extends Component {
                     </div>
                     <div className="">
                       <h6 className="font-weight-medium">
-                        Avoids misinformation regarding time and money
+                        Avoid misinformation regarding time and money
                       </h6>
                       <p className="fw-light text-muted">
                         This is the most improved benefit of Meidan user App as

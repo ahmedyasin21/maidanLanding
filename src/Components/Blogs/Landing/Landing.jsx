@@ -140,6 +140,133 @@ class Landing extends Component {
                       <img src="../img/blog/blog1L.png" alt="" />
                     </div>
                     <div className="col-md-8 col-12 text-b mt-2">
+                      <h5>Indoor Games for Adults:</h5>
+                      <p>
+                        You found our list of indoor games for adults.
+                        <br />
+                        Indoor team games and activities are enjoyable workouts
+                        that adults can perform with other adults. The board
+                        games Monopoly, Never Have I, and tic-tac-toe
+                        competitions are some examples of indoor games. Even in
+                        situations where being outside is not possible, these
+                        activities are fantastic for fostering closeness. These
+                        indoor games can also be utilized to increase
+                        cooperation and spirit.
+                      </p>
+                      <Link to={"/blog/8"} mode="dark" className="view-more">
+                        {" "}
+                        View more{" "}
+                      </Link>
+                    </div>
+                  </div>
+                </div>{" "}
+              </div>
+              <div className="content">
+                {" "}
+                <div
+                  className="container content mt-5"
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                >
+                  <div className="row r-list">
+                    <div className="col-md-4 col-12 img-b">
+                      <img src="../img/blog/blog1L.png" alt="" />
+                    </div>
+                    <div className="col-md-8 col-12 text-b mt-2">
+                      <h5>Different Types of Outdoor Games: </h5>
+                      <p>
+                        Summer is on its way, and a picnic would be incomplete
+                        without sports.
+                        <br />
+                        Outdoor games, whether with family or friends, provide a
+                        way for "kids to play with other kids, neighbors to
+                        gather, and adult hangouts." Our suggested outdoor games
+                        bring people together, whether they are 10 years old, 30
+                        years old, or 70 years old. To find the greatest lawn
+                        and ground games for all types of players, even shy kids
+                        who would prefer to stay inside.
+                      </p>
+                      <Link to={"/blog/9"} mode="dark" className="view-more">
+                        {" "}
+                        View more{" "}
+                      </Link>
+                    </div>
+                  </div>
+                </div>{" "}
+              </div>
+              <div className="content">
+                {" "}
+                <div
+                  className="container content mt-5"
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                >
+                  <div className="row r-list">
+                    <div className="col-md-4 col-12 img-b">
+                      <img src="../img/blog/blog1L.png" alt="" />
+                    </div>
+                    <div className="col-md-8 col-12 text-b mt-2">
+                      <h5>Best Playground Equipment for School: </h5>
+                      <p>
+                        Let's get down to business—the real playground equipment
+                        you require! We have some of our favorite options across
+                        a range of price points but first of all let's talk
+                        about the design of playground equipment.Let's get down
+                        to business—the real playground equipment you require!
+                        We have some of our favorite options across a range of
+                        price points but first of all let's talk about the
+                        design of playground equipment.
+                      </p>
+                      <Link to={"/blog/10"} mode="dark" className="view-more">
+                        {" "}
+                        View more{" "}
+                      </Link>
+                    </div>
+                  </div>
+                </div>{" "}
+              </div>
+              <div className="content">
+                {" "}
+                <div
+                  className="container content mt-5"
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                >
+                  <div className="row r-list">
+                    <div className="col-md-4 col-12 img-b">
+                      <img src="../img/blog/blog1L.png" alt="" />
+                    </div>
+                    <div className="col-md-8 col-12 text-b mt-2">
+                      <h5> Difference between sports and games: </h5>
+                      <p>
+                        Sports are activities that require physical exertion and
+                        ability, are usually organized by a system of rules or
+                        norms, and are competitive in nature. Sports can be
+                        played alone or as part of a team and are frequently
+                        classified or divided into groups or disciplines. They
+                        are not only enjoyable, but they also have cultural,
+                        social, and economic value in many countries.
+                      </p>
+                      <Link to={"/blog/11"} mode="dark" className="view-more">
+                        {" "}
+                        View more{" "}
+                      </Link>
+                    </div>
+                  </div>
+                </div>{" "}
+              </div>
+              <div className="content">
+                {" "}
+                <div
+                  className="container content mt-5"
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                >
+                  <div className="row r-list">
+                    <div className="col-md-4 col-12 img-b">
+                      <img src="../img/blog/blog1L.png" alt="" />
+                    </div>
+                    <div className="col-md-8 col-12 text-b mt-2">
                       <h5>5 indoor sports to keep you active over winter:</h5>
                       <p>
                         How well are all those pledges and resolutions to get

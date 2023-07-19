@@ -59,10 +59,10 @@ class Merchant extends Component {
                         </div>
                         <h6 className="">Easily manageable:</h6>
                         <p className="mt-3">
-                          The Meidan app is easily manageable from anywhere
-                          anytime. Even it can work in other countries as well.
-                          You would just need an internet connection to manage
-                          it.
+                          The Meidan app is easily manageable for sports ground
+                          listing from anywhere anytime. It can even work in
+                          other countries as well. You would just need an
+                          internet connection to manage it.
                         </p>
                         <br />
                       </div>
@@ -92,7 +92,8 @@ class Merchant extends Component {
                           Maintaining journals is the old way of keeping
                           records. It takes time, energy, and labor. After all
                           the efforts, it can be destroyed and replaced so
-                          easily.
+                          easily. Registration form for Meidan merchants are
+                          available online.
                         </p>
                         <br />
                       </div>
@@ -149,10 +150,10 @@ class Merchant extends Component {
                         <h6 className="">More profit</h6>
                         <p className="mt-3">
                           Meidan is solving the hurdle to track customers and
-                          book appointments. It enhances the business and
-                          removes the problems of access. This will
-                          automatically generates more customers and end up with
-                          larger amount of profit.{" "}
+                          book appointments by sports ground listing. It
+                          enhances the business and removes the problems of
+                          access. This will automatically generate more
+                          customers and end up with a larger amount of profit.
                         </p>
                       </div>
                     </div>
@@ -178,9 +179,9 @@ class Merchant extends Component {
                         <h6 className="">Referral download reward RS 50</h6>
                         <p className="mt-3">
                           Merchant will reward RS 50 to his Meidan Wallet, only
-                          if he refers any user to book appointment through
-                          Meidan App. And the one who is referral of referrer
-                          will reward RS 50 to Meidan Wallet
+                          if he refers any user to sports ground listing through
+                          the Meidan App. And the one who is a referral will
+                          reward RS 50 to the Meidan Wallet.
                         </p>
                         <br />
                       </div>
@@ -270,7 +271,7 @@ class Merchant extends Component {
                         <p className="mt-3">
                           Whenever a user cancels its booking of ground, the
                           merchant will charge him particular amount. As the
-                          cancelation chart is already maintained
+                          cancelation chart is already maintained.
                         </p>
                         <br />
                       </div>
@@ -299,7 +300,7 @@ class Merchant extends Component {
                         <p className="mt-3">
                           It’s not difficult to use and manage. Even it clears
                           all the barrier of booking grounds. Merchant can earn
-                          ten times more than usual income
+                          ten times more than usual income.
                         </p>
                         <br />
                       </div>
@@ -311,7 +312,7 @@ class Merchant extends Component {
           </section>
           {/* steps */}
           <section>
-            <div className="container " style={{overflowX:" hidden"}}>
+            <div className="container " style={{ overflowX: " hidden" }}>
               <div className="row">
                 <h2 className="text-center py-5">
                   Steps to join merchant Meidan App
@@ -405,7 +406,7 @@ class Merchant extends Component {
                   <p>
                     Meidan team hand over merchant app manually. That mean team
                     itself will deliver you App to use merchant account
-                    accordingly
+                    accordingly.
                   </p>
                 </div>
                 <div
