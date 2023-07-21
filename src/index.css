@@ -641,7 +641,22 @@ button {
 .card--2 .card__img--hover {
   background-image: url("../public/img/blog/blog7a.png");
 }
-
+.card--3 .card__img,
+.card--3 .card__img--hover {
+  background-image: url("../public/img/blog/indoorgames2.png");
+}
+.card--4 .card__img,
+.card--4 .card__img--hover {
+  background-image: url("../public/img/blog/diffequipt1.png");
+}
+.card--5 .card__img,
+.card--5 .card__img--hover {
+  background-image: url("../public/img/blog/typesoutdoor1.png");
+}
+.card--6 .card__img,
+.card--6 .card__img--hover {
+  background-image: url("../public/img/blog/sportsgames1.png");
+}
 .card__like {
   width: 18px;
 }

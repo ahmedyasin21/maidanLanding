@@ -137,7 +137,7 @@ class Landing extends Component {
                 >
                   <div className="row r-list">
                     <div className="col-md-4 col-12 img-b">
-                      <img src="../img/blog/blog1L.png" alt="" />
+                      <img src="../img/blog/indoorgames1.png" alt="" />
                     </div>
                     <div className="col-md-8 col-12 text-b mt-2">
                       <h5>Indoor Games for Adults:</h5>
@@ -170,7 +170,7 @@ class Landing extends Component {
                 >
                   <div className="row r-list">
                     <div className="col-md-4 col-12 img-b">
-                      <img src="../img/blog/blog1L.png" alt="" />
+                      <img src="../img/blog/diffequipt1.png" alt="" />
                     </div>
                     <div className="col-md-8 col-12 text-b mt-2">
                       <h5>Different Types of Outdoor Games: </h5>
@@ -203,7 +203,7 @@ class Landing extends Component {
                 >
                   <div className="row r-list">
                     <div className="col-md-4 col-12 img-b">
-                      <img src="../img/blog/blog1L.png" alt="" />
+                      <img src="../img/blog/typesoutdoor1.png" alt="" />
                     </div>
                     <div className="col-md-8 col-12 text-b mt-2">
                       <h5>Best Playground Equipment for School: </h5>
@@ -234,7 +234,7 @@ class Landing extends Component {
                 >
                   <div className="row r-list">
                     <div className="col-md-4 col-12 img-b">
-                      <img src="../img/blog/blog1L.png" alt="" />
+                      <img src="../img/blog/sportsgames1.png" alt="" />
                     </div>
                     <div className="col-md-8 col-12 text-b mt-2">
                       <h5> Difference between sports and games: </h5>

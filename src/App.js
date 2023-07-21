@@ -19,6 +19,8 @@ import Blog7 from './Components/Blogs/BlogDetails/seven';
 import Blog8 from './Components/Blogs/BlogDetails/eight.jsx'
 import Blog9 from './Components/Blogs/BlogDetails/nine.jsx'
 import Blog10 from './Components/Blogs/BlogDetails/ten.jsx'
+import Blog11 from './Components/Blogs/BlogDetails/eleven.jsx'
+
 
 import ScrollToTop from './Components/ScrollToTop.js';
 import { useEffect } from 'react';
@@ -55,6 +57,7 @@ function App() {
               <Route exact path="/blog/8" component={Blog8}/>
               <Route exact path="/blog/9" component={Blog9}/>
               <Route exact path="/blog/10" component={Blog10}/>
+              <Route exact path="/blog/11" component={Blog11}/>
 
               <Route exact path="*" component={Hero}/>
               <Route exact path="*" component={Footer}/>

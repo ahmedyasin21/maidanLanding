@@ -15,7 +15,7 @@ class nine extends Component {
                   <div className="text-center py-3 mb-4">
                     <img
                       className="blog-img "
-                      src="../img/blog/blog5b.png"
+                      src="../img/blog/diffequipt.png"
                       alt=""
                     />
                   </div>
