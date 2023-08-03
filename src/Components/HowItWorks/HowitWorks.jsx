@@ -28,7 +28,7 @@ class HowitWorks extends Component {
             <div className="container mt-5 " style={{ overflowX: "hidden" }}>
               <div className="row justify-content-md-center text-center">
                 <div className="col">
-                  <h1>How it works</h1>
+                  <h1 className="pt-5 pb-5">How it works</h1>
                 </div>
               </div>
               {/* 1st find */}

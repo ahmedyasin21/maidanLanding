@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import DocumentMeta from 'react-document-meta';
 // Import Swiper stylesn
 import "swiper/css";
 import "swiper/css/pagination";
@@ -12,8 +12,19 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 
 class AboutUs extends Component {
   render() {
+    const meta = {
+      title: "Get access to Meidan and Find playgrounds in Lahore ",
+      description: "Book your favorite playground in Lahore for kids and adults easily and securely.",
+      canonical: "http://example.com/path/to/page",
+      meta: {
+        charset: "utf-8",
+        name: {
+          keywords: "nearest snooker clubs , sports complex near me , video game shops ,outdoor and indoor games for adults"
+        },
+      },
+    };
     return (
-      <div>
+      <DocumentMeta {...meta}>
         <div>
           {/* about us */}
           <section id="AboutUs">
@@ -397,7 +408,7 @@ class AboutUs extends Component {
             </div>
           </section>
         </div>
-      </div>
+      </DocumentMeta>
     );
   }
 }
