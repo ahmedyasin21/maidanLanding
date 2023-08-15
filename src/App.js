@@ -20,6 +20,7 @@ import Blog8 from './Components/Blogs/BlogDetails/eight.jsx'
 import Blog9 from './Components/Blogs/BlogDetails/nine.jsx'
 import Blog10 from './Components/Blogs/BlogDetails/ten.jsx'
 import Blog11 from './Components/Blogs/BlogDetails/eleven.jsx'
+import AvanueList from './Components/Avanue/AvanueList.jsx';
 
 
 import ScrollToTop from './Components/ScrollToTop.js';
@@ -46,6 +47,7 @@ function App() {
               <Route exact path="/contact-us" component={Contact}/>
               <Route exact path="/about-us" component={About}/>
               <Route exact path="/merchant" component={Merchant}/>
+              <Route exact path="/avanuelist-by-cities" component={AvanueList}/>
               <Route exact path="/blog-listing" component={BlogListing}/>
               <Route exact path="/blog/1" component={Blog1}/>
               <Route exact path="/blog/2" component={Blog2}/>
