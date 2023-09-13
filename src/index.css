@@ -128,7 +128,6 @@ a:hover {
     top: 0%;
     padding: 1% 0px;
   }
-
 }
 
 .contactUsSection {
@@ -277,7 +276,6 @@ a:hover {
     align-items: center;
     display: flex;
   }
-
 }
 
 button {
@@ -843,7 +841,7 @@ button {
   margin-top: 6%;
 }
 
-@media only screen and (min-width:992px) and (max-width:1300px) {
+@media only screen and (min-width: 992px) and (max-width: 1300px) {
   .fsnEF {
     margin-top: 10px;
     text-decoration: none;
@@ -855,7 +853,6 @@ button {
     opacity: 0.8;
     position: relative;
   }
-
 }
 
 .close {
@@ -1130,7 +1127,6 @@ button:hover {
   pointer-events: auto;
 }
 
-
 .pointer {
   cursor: pointer !important;
 }
@@ -1399,14 +1395,18 @@ button:hover {
 
 .service-11 .bg-success-gradiant {
   background: #2cdd9b;
-  background: -webkit-linear-gradient(legacy-direction(to right),
-      #2cdd9b 0%,
-      #1dc8cc 100%);
-  background: -webkit-gradient(linear,
-      left top,
-      right top,
-      from(#2cdd9b),
-      to(#1dc8cc));
+  background: -webkit-linear-gradient(
+    legacy-direction(to right),
+    #2cdd9b 0%,
+    #1dc8cc 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#2cdd9b),
+    to(#1dc8cc)
+  );
   background: -webkit-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
   background: -o-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
   background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
@@ -1419,14 +1419,18 @@ button:hover {
 
 .service-11 .btn-success-gradiant {
   background: #2cdd9b;
-  background: -webkit-linear-gradient(legacy-direction(to right),
-      #2cdd9b 0%,
-      #1dc8cc 100%);
-  background: -webkit-gradient(linear,
-      left top,
-      right top,
-      from(#2cdd9b),
-      to(#1dc8cc));
+  background: -webkit-linear-gradient(
+    legacy-direction(to right),
+    #2cdd9b 0%,
+    #1dc8cc 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#2cdd9b),
+    to(#1dc8cc)
+  );
   background: -webkit-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
   background: -o-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
   background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
@@ -1434,14 +1438,18 @@ button:hover {
 
 .service-11 .btn-success-gradiant:hover {
   background: #1dc8cc;
-  background: -webkit-linear-gradient(legacy-direction(to right),
-      #1dc8cc 0%,
-      #2cdd9b 100%);
-  background: -webkit-gradient(linear,
-      left top,
-      right top,
-      from(#1dc8cc),
-      to(#2cdd9b));
+  background: -webkit-linear-gradient(
+    legacy-direction(to right),
+    #1dc8cc 0%,
+    #2cdd9b 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#1dc8cc),
+    to(#2cdd9b)
+  );
   background: -webkit-linear-gradient(left, #1dc8cc 0%, #2cdd9b 100%);
   background: -o-linear-gradient(left, #1dc8cc 0%, #2cdd9b 100%);
   background: linear-gradient(to right, #1dc8cc 0%, #2cdd9b 100%);
@@ -1481,7 +1489,8 @@ button:hover {
   background-image: url();
 }
 
-.icon-d {}
+.icon-d {
+}
 
 /* Blog */
 #howToImageContainer {
@@ -1525,7 +1534,7 @@ button:hover {
   padding: 5%;
 }
 
-.m-blog>div:nth-child() {
+.m-blog > div:nth-child() {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1574,7 +1583,7 @@ button:hover {
   object-fit: fill;
 }
 
-.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-horizontal > .swiper-pagination-bullets,
 .swiper-pagination-bullets.swiper-pagination-horizontal,
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
@@ -1602,14 +1611,12 @@ button:hover {
   }
 }
 
-
 .choose-city .owl-item {
   border: 1px solid #e2e2e2;
   min-height: auto;
 }
-.choose-city .owl-item .item{
+.choose-city .owl-item .item {
   padding: 15px 15px 5px 15px;
-
 }
 .choose-city .item h4 {
   font-size: 18px;
@@ -1624,11 +1631,6 @@ button:hover {
 /* .owl-nav button, .owl-dots button{
   height: auto !important;
 } */
-
-
-
-
-
 
 .product {
   position: relative;
@@ -1716,13 +1718,14 @@ button:hover {
   position: relative;
   padding-top: 1.4rem;
   padding: 15px;
+  padding: 15px;
 }
 .product-name {
   padding-right: 20px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-size: 18px;
   font-weight: 500;
   color: #163235;
